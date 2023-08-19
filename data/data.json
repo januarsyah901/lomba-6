@@ -1,0 +1,19 @@
+{
+    "pagi": {
+        "salam": "hallo ayanggg!",
+        "content": "aku sayang banget",
+        "gambar" : "akbar.jpg"
+
+    },
+    "siang": {
+        "salam": "dah maem apa belomm?",
+        "content" : "maem yukk",
+        "gambar" : "girl.jpg"
+    },
+    "malam": {
+        "salam":"sore nya kenapa gini aja? ",
+        "content":"aku sayang banget loo",
+        "gambar" :"photo.jpg"
+    }
+    
+}
