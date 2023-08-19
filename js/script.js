@@ -19,5 +19,5 @@ if (currentHour >= 4 && currentHour < 10) {
     // console.log(data.malam);
     data.malam
 }
-$.
+
 });
