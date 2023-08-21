@@ -1,6 +1,5 @@
 $.getJSON('data/data.json', function (data) {
       // Mendapatkan waktu saat ini
-
 var currentTime = new Date();
 
 // Mendapatkan jam dari waktu saat ini
@@ -10,25 +9,35 @@ var currentHour = currentTime.getHours();
 if (currentHour >= 4 && currentHour < 5) {
     data = data.bangun
 } else if (currentHour >= 5 && currentHour < 6) {
-    data = data.olahraga
-} else if (currentHour >= 6 && currentHour < 7) {
-    data = data.persiapan
-} else if (currentHour >= 7 && currentHour < 11) {
-    data = data.aktivitas
-} else if (currentHour >= 11 && currentHour < 13) {
-    data = data.istirahat
-} else if (currentHour >= 13 && currentHour < 16) {
-    data = data.minum
-} else if (currentHour >= 16 && currentHour < 17) {
-    data = data.hiling
-} else if (currentHour >= 17 && currentHour < 20) {
-    data = data.family
-} else if (currentHour >= 20 && currentHour < 23) {
-    data = data.tidur
-} else if (currentHour >= 23 && currentHour < 4) {
-    data = data.begadang
+    // data = data.olahraga
+// } else if (currentHour >= 6 && currentHour < 7) {
+//     data = data.persiapan
+// } else if (currentHour >= 7 && currentHour < 11) {
+//     data = data.aktivitas
+// } else if (currentHour >= 11 && currentHour < 13) {
+//     data = data.istirahat
+// } else if (currentHour >= 13 && currentHour < 16) {
+//     data = data.minum
+// } else if (currentHour >= 16 && currentHour < 17) {
+//     data = data.hiling
+// } else if (currentHour >= 17 && currentHour < 20) {
+//     data = data.family
+// } else if (currentHour >= 20 && currentHour < 23) {
+//     data = data.tidur
+// } else if (currentHour >= 23 && currentHour < 4) {
+//     data = data.begadang
 }else {
     data = data.bangun
+}
+console.log("kamu tidur berapa jam yang? ")
+// logika pertanyaan
+let input = 10
+if (input < data.x) {
+    console.log(data.kurang)
+}else if( input >= data.x && input < data.y){
+    console.log(data.pas)
+}else{
+    console.log(data.lebih)
 }
 
 // eksekusi file

@@ -1,146 +1,271 @@
 {
   "bangun" : {
-    "salam" : "Wahh, kayaknya udah ready nih buat kegiatan hari ini!",
+    "salam" : "Bangun bangun!, ayo mulai hari mu",
     "gambar" : [
       {
-        "g" : "akbar.jpg"
+        "g" : "bangun.jpg"
       },
       {
-        "g" : "photo.jpg"
+        "g" : "bangun2.jpg"
       },
       {
-        "g" : "girl.jpg"
-      }
-    ],
-    "content" : [
-      {
-        "c" : "CONTENT  odio. Eveniet quibusdam velit voluptatem modi vel a!"
-      },
-      {
-        "c" : "CONTENT 2  odio. Eveniet quibusdam velit voluptatem modi vel a!"
-      },
-      {
-        "c" : "CONTENT 3  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+        "g" : "bangun3.jpg"
       }
     ],
     "judul" : [
       {
-        "h" : "Judul 1"
+        "h" : "Merapikan kembali tempat tidur setelah bangun tidur itu baik loh!"
       },
       {
-        "h" : "Judul 2"
+        "h" : "Yuk minum segelas air putih, biar segerr!"
       },
       {
-        "h" : "Judul 3"
+        "h" : "Peregangan dulu yuk, biar ga tengang!"
+      }
+      
+    ],
+    "content" : [
+      {
+        "c" : "Membereskan kembali kasur setelah bangun tidur memiliki beberapa manfaat bagi kesehatan, seperti membantu meningkatkan kualitas tidur dengan menciptakan lingkungan tidur yang bersih dan nyaman. Selain itu, tindakan ini dapat membantu mengurangi potensi alergi dan iritasi yang dapat muncul akibat debu atau tungau di kasur. Melakukan tindakan kecil ini juga bisa memberikan perasaan keteraturan dan kedisiplinan, yang pada gilirannya dapat berkontribusi pada kesehatan mental dan kualitas hidup secara keseluruhan."
+      },
+      {
+        "c" : "Tindakan sederhana ini dapat membantu menghidrasi tubuh, memberikan energi awal yang menyegarkan, dan memulai hari dengan penuh semangat."
+      },
+      {
+        "c" : "Dengan melakukan peregangan ringan serangkaian gerakan lembut yang dilakukan setelah bangun tidur. Ini membantu merangsang sirkulasi darah, mengendurkan otot yang kaku setelah tidur, dan meningkatkan fleksibilitas tubuh. Peregangan ringan juga dapat membantu merasa lebih siap menghadapi hari dan mengurangi risiko cedera saat melakukan aktivitas fisik."
+      }
+    ],
+    "title" : [
+      {
+        "t" : "Apa yang terjadi ketika kamu bangun tidur?"
+      },
+      {
+        "t" : "Bangun tidur tubuh malah semakin pegal, simak ulasannya"
+      },
+      {
+        "t" : "Saat tidur tubuh ngapain ya?"
       }
       
     ],
     "artikel" : [
       {
-        "a" :"ARTIKEL 1 "
+        "a" :"Ketika Anda bangun tidur, tubuh mengalami beberapa perubahan. Sistem saraf pusat mengirim sinyal untuk menghentikan produksi hormon melatonin yang membuat Anda mengantuk. Pernapasan dan detak jantung meningkat, memberikan lebih banyak oksigen ke seluruh tubuh. Aliran darah dan sirkulasi meningkatkan pasokan nutrisi dan oksigen ke otak dan otot. Pencernaan juga mulai berfungsi lagi setelah beristirahat semalaman. Selain itu, kulit juga bisa terasa lebih kering karena kehilangan kelembapan saat tidur."
       },
       {
-        "a" :"ARTIKEL 2 "
+        "a" :"Salah satu faktor penyebabnya adalah tidur dalam posisi yang tidak ergonomis atau buruk dapat menyebabkan pegal saat bangun tidur. Yang kedua tidur yang membebani area tubuh tertentu, seperti leher, punggung, atau bahu, dapat menyebabkan ketegangan otot. Kurang tidur atau tidur yang tidak berkualitas dapat membuat tubuh Anda merasa pegal dan lelah saat bangun tidur."
       },
       {
-        "a" :"ARTIKEL 3 "
+        "a" :"Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
       }
     ],
-    "title" : [
-      {
-        "t" : "Title 1"
-      },
-      {
-        "t" : "Title 2"
-      },
-      {
-        "t" : "Title 3"
-      }
-      
-    ]
-  },
+    "x":"8",
+    "y":10,
+    "kurang" : "ih ayangg, kok bentar banget tidurnya, ngapain aja sih, ntar sakit gimana?",
+    "pas" : "nahh gitu dong, tidur tepat waktu lagi ya yang",
+    "lebih": "kamu kecapean ya yangg, :("
+  }, 
   "olahraga" : {
-    "salam" : "Wahh, kayaknya udah ready nih buat kegiatan hari ini!",
+    "salam" : "Bangun bangun!, ayo mulai hari mu",
     "gambar" : [
       {
-        "g" : "akbar.jpg"
+        "g" : "bangun.jpg"
       },
       {
-        "g" : "photo.jpg"
+        "g" : "bangun2.jpg"
       },
       {
-        "g" : "girl.jpg"
-      }
-    ],
-    "content" : [
-      {
-        "c" : "CONTENT  odio. Eveniet quibusdam velit voluptatem modi vel a!"
-      },
-      {
-        "c" : "CONTENT 2  odio. Eveniet quibusdam velit voluptatem modi vel a!"
-      },
-      {
-        "c" : "CONTENT 3  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+        "g" : "bangun3.jpg"
       }
     ],
     "judul" : [
       {
-        "h" : "Judul 1"
+        "h" : "Merapikan kembali tempat tidur setelah bangun tidur itu baik loh!"
       },
       {
-        "h" : "Judul 2"
+        "h" : "Yuk minum segelas air putih, biar segerr!"
       },
       {
-        "h" : "Judul 3"
+        "h" : "Peregangan dulu yuk, biar ga tengang!"
+      }
+      
+    ],
+    "content" : [
+      {
+        "c" : "Membereskan kembali kasur setelah bangun tidur memiliki beberapa manfaat bagi kesehatan, seperti membantu meningkatkan kualitas tidur dengan menciptakan lingkungan tidur yang bersih dan nyaman. Selain itu, tindakan ini dapat membantu mengurangi potensi alergi dan iritasi yang dapat muncul akibat debu atau tungau di kasur. Melakukan tindakan kecil ini juga bisa memberikan perasaan keteraturan dan kedisiplinan, yang pada gilirannya dapat berkontribusi pada kesehatan mental dan kualitas hidup secara keseluruhan."
+      },
+      {
+        "c" : "Tindakan sederhana ini dapat membantu menghidrasi tubuh, memberikan energi awal yang menyegarkan, dan memulai hari dengan penuh semangat."
+      },
+      {
+        "c" : "Dengan melakukan peregangan ringan serangkaian gerakan lembut yang dilakukan setelah bangun tidur. Ini membantu merangsang sirkulasi darah, mengendurkan otot yang kaku setelah tidur, dan meningkatkan fleksibilitas tubuh. Peregangan ringan juga dapat membantu merasa lebih siap menghadapi hari dan mengurangi risiko cedera saat melakukan aktivitas fisik."
+      }
+    ],
+    "title" : [
+      {
+        "t" : "Apa yang terjadi ketika kamu bangun tidur?"
+      },
+      {
+        "t" : "Bangun tidur tubuh malah semakin pegal, simak ulasannya"
+      },
+      {
+        "t" : "Saat tidur tubuh ngapain ya?"
       }
       
     ],
     "artikel" : [
       {
-        "a" :"ARTIKEL 1 "
+        "a" :"Ketika Anda bangun tidur, tubuh mengalami beberapa perubahan. Sistem saraf pusat mengirim sinyal untuk menghentikan produksi hormon melatonin yang membuat Anda mengantuk. Pernapasan dan detak jantung meningkat, memberikan lebih banyak oksigen ke seluruh tubuh. Aliran darah dan sirkulasi meningkatkan pasokan nutrisi dan oksigen ke otak dan otot. Pencernaan juga mulai berfungsi lagi setelah beristirahat semalaman. Selain itu, kulit juga bisa terasa lebih kering karena kehilangan kelembapan saat tidur."
       },
       {
-        "a" :"ARTIKEL 2 "
+        "a" :"Salah satu faktor penyebabnya adalah tidur dalam posisi yang tidak ergonomis atau buruk dapat menyebabkan pegal saat bangun tidur. Yang kedua tidur yang membebani area tubuh tertentu, seperti leher, punggung, atau bahu, dapat menyebabkan ketegangan otot. Kurang tidur atau tidur yang tidak berkualitas dapat membuat tubuh Anda merasa pegal dan lelah saat bangun tidur."
       },
       {
-        "a" :"ARTIKEL 3 "
+        "a" :"Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
       }
-    ],
-    "title" : [
-      {
-        "t" : "Title 1"
-      },
-      {
-        "t" : "Title 2"
-      },
-      {
-        "t" : "Title 3"
-      }
-      
     ]
   },
   "persiapan" : {
-    "salam" : "salam persiapan",
+    "salam" : "",
     "gambar" : [
       {
-        "g" : "akbar.jpg"
+        "g" : ".jpg"
       },
       {
-        "g" : "photo.jpg"
+        "g" : ".jpg"
       },
       {
-        "g" : "girl.jpg"
+        "g" : ".jpg"
       }
     ],
     "content" : [
       {
-        "c" : "CONTENT  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+        "c" : "CONTENT!"
       },
       {
-        "c" : "CONTENT 2  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+        "c" : "CONTENT 2!"
       },
       {
-        "c" : "CONTENT 3  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+        "c" : "CONTENT 3!"
+      }
+    ],
+    "judul" : [
+      {
+        "h" : "Judul 1"
+      },
+      {
+        "h" : "Judul 2"
+      },
+      {
+        "h" : "Judul 3"
+      }
+      
+    ],
+    "artikel" : [
+      {
+        "a" :"ARTIKEL 1 "
+      },
+      {
+        "a" :"ARTIKEL 2 "
+      },
+      {
+        "a" :"ARTIKEL 3 "
+      }
+    ],
+    "title" : [
+      {
+        "t" : "Title 1"
+      },
+      {
+        "t" : "Title 2"
+      },
+      {
+        "t" : "Title 3"
+      }
+      
+    ]
+  },
+  "aktifitas" : {
+    "salam" : "",
+    "gambar" : [
+      {
+        "g" : ".jpg"
+      },
+      {
+        "g" : ".jpg"
+      },
+      {
+        "g" : ".jpg"
+      }
+    ],
+    "content" : [
+      {
+        "c" : "CONTENT!"
+      },
+      {
+        "c" : "CONTENT 2!"
+      },
+      {
+        "c" : "CONTENT 3!"
+      }
+    ],
+    "judul" : [
+      {
+        "h" : "Judul 1"
+      },
+      {
+        "h" : "Judul 2"
+      },
+      {
+        "h" : "Judul 3"
+      }
+      
+    ],
+    "artikel" : [
+      {
+        "a" :"ARTIKEL 1 "
+      },
+      {
+        "a" :"ARTIKEL 2 "
+      },
+      {
+        "a" :"ARTIKEL 3 "
+      }
+    ],
+    "title" : [
+      {
+        "t" : "Title 1"
+      },
+      {
+        "t" : "Title 2"
+      },
+      {
+        "t" : "Title 3"
+      }
+      
+    ]
+  },
+  "istirahat" : {
+    "salam" : "salam persiapan",
+    "gambar" : [
+      {
+        "g" : ".jpg"
+      },
+      {
+        "g" : ".jpg"
+      },
+      {
+        "g" : ".jpg"
+      }
+    ],
+    "content" : [
+      {
+        "c" : "CONTENT !"
+      },
+      {
+        "c" : "CONTENT 2 !"
+      },
+      {
+        "c" : "CONTENT 3 !"
       }
     ],
     "judul" : [
@@ -183,24 +308,24 @@
     "salam" : "Wahh, kayaknya udah ready nih buat kegiatan hari ini!",
     "gambar" : [
       {
-        "g" : "akbar.jpg"
+        "g" : ".jpg"
       },
       {
-        "g" : "photo.jpg"
+        "g" : ".jpg"
       },
       {
-        "g" : "girl.jpg"
+        "g" : ".jpg"
       }
     ],
     "content" : [
       {
-        "c" : "CONTENT  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+        "c" : "CONTENT !"
       },
       {
-        "c" : "CONTENT 2  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+        "c" : "CONTENT 2 !"
       },
       {
-        "c" : "CONTENT 3  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+        "c" : "CONTENT 3 !"
       }
     ],
     "judul" : [
@@ -239,7 +364,12 @@
       
     ]
   }
+
 }
       
+    
+
+
+     
     
 
