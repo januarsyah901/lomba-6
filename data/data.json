@@ -1,19 +1,245 @@
 {
-    "pagi": {
-        "salam": "hallo ayanggg!",
-        "content": "aku sayang banget",
-        "gambar" : "akbar.jpg"
-
-    },
-    "siang": {
-        "salam": "dah maem apa belomm?",
-        "content" : "maem yukk",
-        "gambar" : "girl.jpg"
-    },
-    "malam": {
-        "salam":"sore nya kenapa gini aja? ",
-        "content":"aku sayang banget loo",
-        "gambar" :"photo.jpg"
-    }
-    
+  "bangun" : {
+    "salam" : "Wahh, kayaknya udah ready nih buat kegiatan hari ini!",
+    "gambar" : [
+      {
+        "g" : "akbar.jpg"
+      },
+      {
+        "g" : "photo.jpg"
+      },
+      {
+        "g" : "girl.jpg"
+      }
+    ],
+    "content" : [
+      {
+        "c" : "CONTENT  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+      },
+      {
+        "c" : "CONTENT 2  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+      },
+      {
+        "c" : "CONTENT 3  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+      }
+    ],
+    "judul" : [
+      {
+        "h" : "Judul 1"
+      },
+      {
+        "h" : "Judul 2"
+      },
+      {
+        "h" : "Judul 3"
+      }
+      
+    ],
+    "artikel" : [
+      {
+        "a" :"ARTIKEL 1 "
+      },
+      {
+        "a" :"ARTIKEL 2 "
+      },
+      {
+        "a" :"ARTIKEL 3 "
+      }
+    ],
+    "title" : [
+      {
+        "t" : "Title 1"
+      },
+      {
+        "t" : "Title 2"
+      },
+      {
+        "t" : "Title 3"
+      }
+      
+    ]
+  },
+  "olahraga" : {
+    "salam" : "Wahh, kayaknya udah ready nih buat kegiatan hari ini!",
+    "gambar" : [
+      {
+        "g" : "akbar.jpg"
+      },
+      {
+        "g" : "photo.jpg"
+      },
+      {
+        "g" : "girl.jpg"
+      }
+    ],
+    "content" : [
+      {
+        "c" : "CONTENT  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+      },
+      {
+        "c" : "CONTENT 2  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+      },
+      {
+        "c" : "CONTENT 3  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+      }
+    ],
+    "judul" : [
+      {
+        "h" : "Judul 1"
+      },
+      {
+        "h" : "Judul 2"
+      },
+      {
+        "h" : "Judul 3"
+      }
+      
+    ],
+    "artikel" : [
+      {
+        "a" :"ARTIKEL 1 "
+      },
+      {
+        "a" :"ARTIKEL 2 "
+      },
+      {
+        "a" :"ARTIKEL 3 "
+      }
+    ],
+    "title" : [
+      {
+        "t" : "Title 1"
+      },
+      {
+        "t" : "Title 2"
+      },
+      {
+        "t" : "Title 3"
+      }
+      
+    ]
+  },
+  "persiapan" : {
+    "salam" : "salam persiapan",
+    "gambar" : [
+      {
+        "g" : "akbar.jpg"
+      },
+      {
+        "g" : "photo.jpg"
+      },
+      {
+        "g" : "girl.jpg"
+      }
+    ],
+    "content" : [
+      {
+        "c" : "CONTENT  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+      },
+      {
+        "c" : "CONTENT 2  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+      },
+      {
+        "c" : "CONTENT 3  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+      }
+    ],
+    "judul" : [
+      {
+        "h" : "Judul 1"
+      },
+      {
+        "h" : "Judul 2"
+      },
+      {
+        "h" : "Judul 3"
+      }
+      
+    ],
+    "artikel" : [
+      {
+        "a" :"ARTIKEL 1 "
+      },
+      {
+        "a" :"ARTIKEL 2 "
+      },
+      {
+        "a" :"ARTIKEL 3 "
+      }
+    ],
+    "title" : [
+      {
+        "t" : "Title 1"
+      },
+      {
+        "t" : "Title 2"
+      },
+      {
+        "t" : "Title 3"
+      }
+      
+    ]
+  },
+  "aktivitas" : {
+    "salam" : "Wahh, kayaknya udah ready nih buat kegiatan hari ini!",
+    "gambar" : [
+      {
+        "g" : "akbar.jpg"
+      },
+      {
+        "g" : "photo.jpg"
+      },
+      {
+        "g" : "girl.jpg"
+      }
+    ],
+    "content" : [
+      {
+        "c" : "CONTENT  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+      },
+      {
+        "c" : "CONTENT 2  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+      },
+      {
+        "c" : "CONTENT 3  odio. Eveniet quibusdam velit voluptatem modi vel a!"
+      }
+    ],
+    "judul" : [
+      {
+        "h" : "Judul 1"
+      },
+      {
+        "h" : "Judul 2"
+      },
+      {
+        "h" : "Judul 3"
+      }
+      
+    ],
+    "artikel" : [
+      {
+        "a" :"ARTIKEL 1 "
+      },
+      {
+        "a" :"ARTIKEL 2 "
+      },
+      {
+        "a" :"ARTIKEL 3 "
+      }
+    ],
+    "title" : [
+      {
+        "t" : "Title 1"
+      },
+      {
+        "t" : "Title 2"
+      },
+      {
+        "t" : "Title 3"
+      }
+      
+    ]
+  }
 }
+      
+    
+
