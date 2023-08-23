@@ -1,375 +1,357 @@
 {
-  "bangun" : {
-    "salam" : "Bangun bangun!, ayo mulai hari mu",
-    "gambar" : [
+  "bangun": {
+    "salam": "Bangun bangun!, ayo mulai hari mu",
+    "gambar": [
       {
-        "g" : "bangun.jpg"
+        "g": "bangun.jpg"
       },
       {
-        "g" : "bangun2.jpg"
+        "g": "bangun2.jpg"
       },
       {
-        "g" : "bangun3.jpg"
+        "g": "bangun3.jpg"
       }
     ],
-    "judul" : [
+    "judul": [
       {
-        "h" : "Merapikan kembali tempat tidur setelah bangun tidur itu baik loh!"
+        "h": "merapikan kembali tempat tidur itu sangat baik loh!"
       },
       {
-        "h" : "Yuk minum segelas air putih, biar segerr!"
+        "h": "yuk minum segelas air putih, biar segerrr"
       },
       {
-        "h" : "Peregangan dulu yuk, biar ga tengang!"
-      }
-      
-    ],
-    "content" : [
-      {
-        "c" : "Membereskan kembali kasur setelah bangun tidur memiliki beberapa manfaat bagi kesehatan, seperti membantu meningkatkan kualitas tidur dengan menciptakan lingkungan tidur yang bersih dan nyaman. Selain itu, tindakan ini dapat membantu mengurangi potensi alergi dan iritasi yang dapat muncul akibat debu atau tungau di kasur. Melakukan tindakan kecil ini juga bisa memberikan perasaan keteraturan dan kedisiplinan, yang pada gilirannya dapat berkontribusi pada kesehatan mental dan kualitas hidup secara keseluruhan."
-      },
-      {
-        "c" : "Tindakan sederhana ini dapat membantu menghidrasi tubuh, memberikan energi awal yang menyegarkan, dan memulai hari dengan penuh semangat."
-      },
-      {
-        "c" : "Dengan melakukan peregangan ringan serangkaian gerakan lembut yang dilakukan setelah bangun tidur. Ini membantu merangsang sirkulasi darah, mengendurkan otot yang kaku setelah tidur, dan meningkatkan fleksibilitas tubuh. Peregangan ringan juga dapat membantu merasa lebih siap menghadapi hari dan mengurangi risiko cedera saat melakukan aktivitas fisik."
+        "h": "Peregangan dulu yuk, biar ga tengang!"
       }
     ],
-    "title" : [
+    "content": [
       {
-        "t" : "Apa yang terjadi ketika kamu bangun tidur?"
+        "c": "Membereskan kembali kasur setelah bangun tidur memiliki beberapa manfaat bagi kesehatan, seperti membantu meningkatkan kualitas tidur dengan menciptakan lingkungan tidur yang bersih dan nyaman. Selain itu, tindakan ini dapat membantu mengurangi potensi alergi dan iritasi yang dapat muncul akibat debu atau tungau di kasur. Melakukan tindakan kecil ini juga bisa memberikan perasaan keteraturan dan kedisiplinan, yang pada gilirannya dapat berkontribusi pada kesehatan mental dan kualitas hidup secara keseluruhan."
       },
       {
-        "t" : "Bangun tidur tubuh malah semakin pegal, simak ulasannya"
+        "c": "Tindakan sederhana ini dapat membantu menghidrasi tubuh, memberikan energi awal yang menyegarkan, dan memulai hari dengan penuh semangat."
       },
       {
-        "t" : "Saat tidur tubuh ngapain ya?"
-      }
-      
-    ],
-    "artikel" : [
-      {
-        "a" :"Ketika Anda bangun tidur, tubuh mengalami beberapa perubahan. Sistem saraf pusat mengirim sinyal untuk menghentikan produksi hormon melatonin yang membuat Anda mengantuk. Pernapasan dan detak jantung meningkat, memberikan lebih banyak oksigen ke seluruh tubuh. Aliran darah dan sirkulasi meningkatkan pasokan nutrisi dan oksigen ke otak dan otot. Pencernaan juga mulai berfungsi lagi setelah beristirahat semalaman. Selain itu, kulit juga bisa terasa lebih kering karena kehilangan kelembapan saat tidur."
-      },
-      {
-        "a" :"Salah satu faktor penyebabnya adalah tidur dalam posisi yang tidak ergonomis atau buruk dapat menyebabkan pegal saat bangun tidur. Yang kedua tidur yang membebani area tubuh tertentu, seperti leher, punggung, atau bahu, dapat menyebabkan ketegangan otot. Kurang tidur atau tidur yang tidak berkualitas dapat membuat tubuh Anda merasa pegal dan lelah saat bangun tidur."
-      },
-      {
-        "a" :"Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
+        "c": "Dengan melakukan peregangan ringan serangkaian gerakan lembut yang dilakukan setelah bangun tidur. Ini membantu merangsang sirkulasi darah, mengendurkan otot yang kaku setelah tidur, dan meningkatkan fleksibilitas tubuh. Peregangan ringan juga dapat membantu merasa lebih siap menghadapi hari dan mengurangi risiko cedera saat melakukan aktivitas fisik."
       }
     ],
-    "x":"8",
-    "y":10,
-    "kurang" : "ih ayangg, kok bentar banget tidurnya, ngapain aja sih, ntar sakit gimana?",
-    "pas" : "nahh gitu dong, tidur tepat waktu lagi ya yang",
+    "title": [
+      {
+        "t": "Apa yang terjadi ketika kamu bangun tidur?"
+      },
+      {
+        "t": "Bangun tidur tubuh malah semakin pegal, simak ulasannya"
+      },
+      {
+        "t": "Saat tidur tubuh ngapain ya?"
+      }
+    ],
+    "artikel": [
+      {
+        "a": "Ketika Anda bangun tidur, tubuh mengalami beberapa perubahan. Sistem saraf pusat mengirim sinyal untuk menghentikan produksi hormon melatonin yang membuat Anda mengantuk. Pernapasan dan detak jantung meningkat, memberikan lebih banyak oksigen ke seluruh tubuh. Aliran darah dan sirkulasi meningkatkan pasokan nutrisi dan oksigen ke otak dan otot. Pencernaan juga mulai berfungsi lagi setelah beristirahat semalaman. Selain itu, kulit juga bisa terasa lebih kering karena kehilangan kelembapan saat tidur."
+      },
+      {
+        "a": "Salah satu faktor penyebabnya adalah tidur dalam posisi yang tidak ergonomis atau buruk dapat menyebabkan pegal saat bangun tidur. Yang kedua tidur yang membebani area tubuh tertentu, seperti leher, punggung, atau bahu, dapat menyebabkan ketegangan otot. Kurang tidur atau tidur yang tidak berkualitas dapat membuat tubuh Anda merasa pegal dan lelah saat bangun tidur."
+      },
+      {
+        "a": "Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
+      }
+    ],
+    "pertanyaan": "tidur jam berapa semalam?",
+    "x": 7,
+    "y": 10,
+    "kurang": "ih ayangg, kok bentar banget tidurnya, ngapain aja sih, ntar sakit gimana?",
+    "pas": "nahh gitu dong, tidur tepat waktu lagi ya yang",
     "lebih": "kamu kecapean ya yangg, :("
-  }, 
-  "olahraga" : {
-    "salam" : "Bangun bangun!, ayo mulai hari mu",
-    "gambar" : [
+  },
+  "olahraga": {
+    "salam": "yuk olahraga biar sehat!",
+    "gambar": [
       {
-        "g" : "bangun.jpg"
+        "g": "olahraga.jpg"
       },
       {
-        "g" : "bangun2.jpg"
+        "g": "olahraga2.jpg"
       },
       {
-        "g" : "bangun3.jpg"
+        "g": "olahraga3.jpg"
       }
     ],
-    "judul" : [
+    "judul": [
       {
-        "h" : "Merapikan kembali tempat tidur setelah bangun tidur itu baik loh!"
+        "h": "ga usah berat-berat yang ringan aja dulu"
       },
       {
-        "h" : "Yuk minum segelas air putih, biar segerr!"
+        "h": "kenapa harus olahraga?"
       },
       {
-        "h" : "Peregangan dulu yuk, biar ga tengang!"
-      }
-      
-    ],
-    "content" : [
-      {
-        "c" : "Membereskan kembali kasur setelah bangun tidur memiliki beberapa manfaat bagi kesehatan, seperti membantu meningkatkan kualitas tidur dengan menciptakan lingkungan tidur yang bersih dan nyaman. Selain itu, tindakan ini dapat membantu mengurangi potensi alergi dan iritasi yang dapat muncul akibat debu atau tungau di kasur. Melakukan tindakan kecil ini juga bisa memberikan perasaan keteraturan dan kedisiplinan, yang pada gilirannya dapat berkontribusi pada kesehatan mental dan kualitas hidup secara keseluruhan."
-      },
-      {
-        "c" : "Tindakan sederhana ini dapat membantu menghidrasi tubuh, memberikan energi awal yang menyegarkan, dan memulai hari dengan penuh semangat."
-      },
-      {
-        "c" : "Dengan melakukan peregangan ringan serangkaian gerakan lembut yang dilakukan setelah bangun tidur. Ini membantu merangsang sirkulasi darah, mengendurkan otot yang kaku setelah tidur, dan meningkatkan fleksibilitas tubuh. Peregangan ringan juga dapat membantu merasa lebih siap menghadapi hari dan mengurangi risiko cedera saat melakukan aktivitas fisik."
+        "h": "manfaat joging"
       }
     ],
-    "title" : [
+    "content": [
       {
-        "t" : "Apa yang terjadi ketika kamu bangun tidur?"
+        "c": "Jangan khawatir, tidak perlu memulai dengan latihan yang terlalu berat. Mulailah dengan peregangan ringan untuk merenggangkan otot-otot Anda. Peregangan ini bisa membantu Anda merasa lebih rileks dan siap untuk beraktivitas. Jadi, tidak perlu terlalu berat, yang penting Anda merasa nyaman dan santai."
       },
       {
-        "t" : "Bangun tidur tubuh malah semakin pegal, simak ulasannya"
+        "c": "Olahraga memiliki manfaat besar bagi kesehatan fisik dan mental. Dengan berolahraga secara teratur, Anda dapat meningkatkan kebugaran, menjaga berat badan yang sehat, dan merasa lebih baik secara keseluruhan. Olahraga juga dapat membantu mengurangi stres, meningkatkan mood, dan meningkatkan energi.<br/>Idealnya, disarankan untuk berolahraga setidaknya 3-5 hari seminggu. Ini dapat mencakup kombinasi aktivitas aerobik seperti berjalan kaki, jogging, berenang, atau bersepeda, serta latihan kekuatan seperti angkat beban atau pilates. Penting untuk memberikan tubuh waktu untuk beristirahat, jadi jangan ragu untuk mengatur jadwal latihan yang sesuai dengan keseharian Anda."
       },
       {
-        "t" : "Saat tidur tubuh ngapain ya?"
+        "c": "Jogging adalah olahraga sederhana yang memberikan sejumlah manfaat signifikan bagi kesehatan fisik dan mental. Salah satu manfaat utamanya adalah meningkatkan kesehatan jantung dan sistem peredaran darah. Dengan berjoging secara teratur, Anda dapat memperkuat jantung serta mengurangi risiko penyakit jantung dan tekanan darah tinggi. Selain itu, jogging juga membantu membakar kalori secara efisien, yang dapat membantu dalam mengontrol berat badan atau mencapai tujuan penurunan berat badan.<br/>Aktivitas ini juga memiliki dampak positif pada kekuatan otot. Saat Anda berjoging, otot-otot bagian bawah tubuh seperti paha, betis, dan gluteus terlibat aktif. Ini membantu meningkatkan kekuatan dan tonus otot Anda. Selain itu, jogging membantu meningkatkan kapasitas paru-paru dan sistem pernapasan Anda. Dengan demikian, Anda akan lebih tahan terhadap aktivitas fisik berat dan merasa lebih bugar."
       }
-      
     ],
-    "artikel" : [
+    "title": [
       {
-        "a" :"Ketika Anda bangun tidur, tubuh mengalami beberapa perubahan. Sistem saraf pusat mengirim sinyal untuk menghentikan produksi hormon melatonin yang membuat Anda mengantuk. Pernapasan dan detak jantung meningkat, memberikan lebih banyak oksigen ke seluruh tubuh. Aliran darah dan sirkulasi meningkatkan pasokan nutrisi dan oksigen ke otak dan otot. Pencernaan juga mulai berfungsi lagi setelah beristirahat semalaman. Selain itu, kulit juga bisa terasa lebih kering karena kehilangan kelembapan saat tidur."
+        "t": "Apa yang terjadi ketika kamu bangun tidur?"
       },
       {
-        "a" :"Salah satu faktor penyebabnya adalah tidur dalam posisi yang tidak ergonomis atau buruk dapat menyebabkan pegal saat bangun tidur. Yang kedua tidur yang membebani area tubuh tertentu, seperti leher, punggung, atau bahu, dapat menyebabkan ketegangan otot. Kurang tidur atau tidur yang tidak berkualitas dapat membuat tubuh Anda merasa pegal dan lelah saat bangun tidur."
+        "t": "Bangun tidur tubuh malah semakin pegal, simak ulasannya"
       },
       {
-        "a" :"Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
+        "t": "Saat tidur tubuh ngapain ya?"
+      }
+    ],
+    "artikel": [
+      {
+        "a": "Ketika Anda bangun tidur, tubuh mengalami beberapa perubahan. Sistem saraf pusat mengirim sinyal untuk menghentikan produksi hormon melatonin yang membuat Anda mengantuk. Pernapasan dan detak jantung meningkat, memberikan lebih banyak oksigen ke seluruh tubuh. Aliran darah dan sirkulasi meningkatkan pasokan nutrisi dan oksigen ke otak dan otot. Pencernaan juga mulai berfungsi lagi setelah beristirahat semalaman. Selain itu, kulit juga bisa terasa lebih kering karena kehilangan kelembapan saat tidur."
+      },
+      {
+        "a": "Salah satu faktor penyebabnya adalah tidur dalam posisi yang tidak ergonomis atau buruk dapat menyebabkan pegal saat bangun tidur. Yang kedua tidur yang membebani area tubuh tertentu, seperti leher, punggung, atau bahu, dapat menyebabkan ketegangan otot. Kurang tidur atau tidur yang tidak berkualitas dapat membuat tubuh Anda merasa pegal dan lelah saat bangun tidur."
+      },
+      {
+        "a": "Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
+      }
+    ],
+    "pertanyaan": "push-up berapa kali pagi ini?",
+    "x": 4,
+    "y": 7,
+    "kurang": "mungkin kamu bisa mencobanya besok",
+    "pas": "wah, bisa dong besok ditingkatin!",
+    "lebih": "waduhhh, calon binaragawan sih ini"
+  },
+  "persiapan": {
+    "salam": "dah jam segini ini, kamu ga siap siap?",
+    "gambar": [
+      {
+        "g": "persiapan.jpg"
+      },
+      {
+        "g": "persiapan2.jpg"
+      },
+      {
+        "g": "persiapan3.jpg"
+      }
+    ],
+    "judul": [
+      {
+        "h": "tahu gak fakta menarik dari mandi pagi?"
+      },
+      {
+        "h": "kenapa harus sarapan?"
+      },
+      {
+        "h": "jangan lupa siapkan senyummu ya!"
+      }
+    ],
+    "content": [
+      {
+        "c": "Mandi pagi bukan hanya sekadar rutinitas harian, tetapi juga merupakan momen yang membawa sejumlah fakta menarik tentang manfaat dan efeknya pada tubuh kita. Saat kita memasuki kamar mandi dengan semangat di pagi hari, ada banyak hal yang mungkin belum kita ketahui tentang kebiasaan ini.<br/>Mandi pagi tidak hanya memberikan kebersihan fisik, tetapi juga memberikan efek yang merangsang untuk memulai hari dengan penuh energi. Saat air hangat mengalir di tubuh kita, ini dapat membantu meningkatkan sirkulasi darah dan membangkitkan sistem saraf. Tubuh yang segar setelah mandi pagi tidak hanya membuatmu merasa lebih baik secara fisik, tetapi juga dapat meningkatkan mood dan kejelasan pikiran."
+      },
+      {
+        "c": "Sarapan adalah kebiasaan penting dengan manfaat yang tak terbantahkan bagi kesehatan dan kesejahteraan kita. Setelah malam berpuasa saat tidur, tubuh kita membutuhkan sumber energi untuk memulai hari dengan baik. Sarapan memberikan langkah awal yang vital dalam menghidupkan metabolisme kita dan memberi kita daya untuk menjalani aktivitas harian dengan semangat.<br/>Selain memberikan energi, sarapan juga memiliki dampak positif pada konsentrasi dan fokus kita. Asupan nutrisi dari sarapan membantu menyediakan bahan bakar bagi otak kita, sehingga kita dapat lebih tajam dan siap untuk bekerja atau belajar. Terlebih lagi, sarapan dapat membantu mengatur berat badan. Dengan sarapan yang tepat, kita cenderung lebih mampu mengelola nafsu makan sepanjang hari."
+      },
+      {
+        "c": "Senyum di pagi hari memiliki dampak yang luar biasa pada berbagai aspek kesehatan dan kesejahteraan kita. Ketika kita memulai hari dengan senyuman, kita memberi diri sendiri manfaat emosional dan fisik yang signifikan. Senyum secara langsung merangsang pelepasan hormon endorfin, yang meredakan stres dan meningkatkan mood kita. Rasanya seperti awal yang cerah, yang mengirim sinyal positif ke otak kita dan membantu kita menghadapi hari dengan semangat yang lebih baik.<br>Lebih dari sekadar menaikkan mood, senyum juga memiliki dampak positif pada kesejahteraan sosial kita. Ini adalah cara alami untuk membuka pintu interaksi positif dengan orang lain. Senyuman membuat kita lebih ramah dan mudah didekati, memperkuat ikatan dengan teman, keluarga, dan rekan kerja. Ini menciptakan lingkungan sosial yang lebih positif dan hangat."
+      }
+    ],
+    "artikel": [
+      {
+        "a": "Ketika Anda bangun tidur, tubuh mengalami beberapa perubahan. Sistem saraf pusat mengirim sinyal untuk menghentikan produksi hormon melatonin yang membuat Anda mengantuk. Pernapasan dan detak jantung meningkat, memberikan lebih banyak oksigen ke seluruh tubuh. Aliran darah dan sirkulasi meningkatkan pasokan nutrisi dan oksigen ke otak dan otot. Pencernaan juga mulai berfungsi lagi setelah beristirahat semalaman. Selain itu, kulit juga bisa terasa lebih kering karena kehilangan kelembapan saat tidur."
+      },
+      {
+        "a": "Salah satu faktor penyebabnya adalah tidur dalam posisi yang tidak ergonomis atau buruk dapat menyebabkan pegal saat bangun tidur. Yang kedua tidur yang membebani area tubuh tertentu, seperti leher, punggung, atau bahu, dapat menyebabkan ketegangan otot. Kurang tidur atau tidur yang tidak berkualitas dapat membuat tubuh Anda merasa pegal dan lelah saat bangun tidur."
+      },
+      {
+        "a": "Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
+      }
+    ],
+    "pertanyaan": "diantara 1 sampai 10, seberapa semangat kah kamu?",
+    "x": 4,
+    "y": 7,
+    "kurang": "yang semangat dong!",
+    "pas": "tamabah semangat lagi yaa!",
+    "lebih": "kalo ini sih pasti lancar jaya harinya"
+  },
+  "aktifitas": {
+    "salam": "siap ga? Siaplah masa engga, yuk beraktivitas!",
+    "gambar": [
+      {
+        "g": "aktivitas.jpg"
+      },
+      {
+        "g": "aktivitas2.jpg"
+      },
+      {
+        "g": "aktivitas3.jpg"
+      }
+    ],
+    "content": [
+      {
+        "c": "Selalu menjaga kepercayaan diri adalah salah satu kunci untuk meraih keberhasilan dan menghadapi tantangan hidup dengan sikap positif. Memiliki kepercayaan diri berarti memiliki keyakinan pada kemampuan dan potensi diri sendiri. Ini adalah dorongan yang kuat yang membimbing kita dalam menghadapi berbagai situasi dengan semangat tak kenal takut.<br/>Dengan kepercayaan diri yang kokoh, kita dapat mengatasi rintangan dan mengambil risiko yang diperlukan untuk mencapai tujuan kita. Ini memberi kita keberanian untuk berbicara, bertindak, dan menciptakan perubahan. Kepercayaan diri yang tinggi juga memancarkan pesona yang menarik orang lain dan menciptakan hubungan sosial yang lebih kuat."
+      },
+      {
+        "c": "Jangan pernah lupakan pentingnya minum air putih sepanjang hari. Seperti matahari yang memberikan cahaya pada alam, air putih memberikan kehidupan bagi tubuh kita. Saat kita mengingat untuk minum air putih dengan cukup, kita memberi diri kita dukungan yang tak ternilai untuk menjaga kesehatan dan kesejahteraan.<br/>Air putih adalah sumber hidrasi yang esensial bagi tubuh kita. Ini membantu menjaga keseimbangan elektrolit, mengatur suhu tubuh, dan mendukung fungsi organ-organ vital. Dengan setiap tegukan, kita memberi nutrisi kepada sel-sel kita, memastikan mereka berfungsi dengan optimal."
+      },
+      {
+        "c": "Berpikir dalam keadaan tenang dan terfokus sangatlah penting, dan salah satu cara untuk mencapainya adalah dengan menghindari tergesa-gesa dalam bernafas. Seperti angin yang berhembus perlahan-lahan, begitu pula bernafas dengan santai memberi kesempatan bagi pikiran untuk beristirahat dan merenung.<br/>Ketika kita terburu-buru dalam bernafas, otomatis pikiran kita juga terdorong untuk berlari-lari. Ini dapat memicu stres, kecemasan, atau ketidakfokusan. Namun, dengan mengambil nafas yang dalam dan perlahan, kita memberikan diri kita momen untuk mengendalikan kecemasan dan mengarahkan pikiran ke hal-hal yang lebih positif."
+      }
+    ],
+    "judul": [
+      {
+        "h": "selalu jaga kepercayaan diri kamu ya!"
+      },
+      {
+        "h": "jangan lupa muinum air putih!"
+      },
+      {
+        "h": "masi aman kan nafasnya?"
+      }
+    ],
+    "artikel": [
+      {
+        "a": "ARTIKEL 1 "
+      },
+      {
+        "a": "ARTIKEL 2 "
+      },
+      {
+        "a": "ARTIKEL 3 "
+      }
+    ],
+    "title": [
+      {
+        "t": "Title 1"
+      },
+      {
+        "t": "Title 2"
+      },
+      {
+        "t": "Title 3"
       }
     ]
   },
-  "persiapan" : {
-    "salam" : "",
-    "gambar" : [
+  "istirahat": {
+    "salam": "salam persiapan",
+    "gambar": [
       {
-        "g" : ".jpg"
+        "g": ".jpg"
       },
       {
-        "g" : ".jpg"
+        "g": ".jpg"
       },
       {
-        "g" : ".jpg"
+        "g": ".jpg"
       }
     ],
-    "content" : [
+    "content": [
       {
-        "c" : "CONTENT!"
+        "c": "CONTENT !"
       },
       {
-        "c" : "CONTENT 2!"
+        "c": "CONTENT 2 !"
       },
       {
-        "c" : "CONTENT 3!"
+        "c": "CONTENT 3 !"
       }
     ],
-    "judul" : [
+    "judul": [
       {
-        "h" : "Judul 1"
+        "h": "Judul 1"
       },
       {
-        "h" : "Judul 2"
+        "h": "Judul 2"
       },
       {
-        "h" : "Judul 3"
-      }
-      
-    ],
-    "artikel" : [
-      {
-        "a" :"ARTIKEL 1 "
-      },
-      {
-        "a" :"ARTIKEL 2 "
-      },
-      {
-        "a" :"ARTIKEL 3 "
+        "h": "Judul 3"
       }
     ],
-    "title" : [
+    "artikel": [
       {
-        "t" : "Title 1"
+        "a": "ARTIKEL 1 "
       },
       {
-        "t" : "Title 2"
+        "a": "ARTIKEL 2 "
       },
       {
-        "t" : "Title 3"
+        "a": "ARTIKEL 3 "
       }
-      
+    ],
+    "title": [
+      {
+        "t": "Title 1"
+      },
+      {
+        "t": "Title 2"
+      },
+      {
+        "t": "Title 3"
+      }
     ]
   },
-  "aktifitas" : {
-    "salam" : "",
-    "gambar" : [
+  "aktivitas": {
+    "salam": "Wahh, kayaknya udah ready nih buat kegiatan hari ini!",
+    "gambar": [
       {
-        "g" : ".jpg"
+        "g": ".jpg"
       },
       {
-        "g" : ".jpg"
+        "g": ".jpg"
       },
       {
-        "g" : ".jpg"
+        "g": ".jpg"
       }
     ],
-    "content" : [
+    "content": [
       {
-        "c" : "CONTENT!"
+        "c": "CONTENT !"
       },
       {
-        "c" : "CONTENT 2!"
+        "c": "CONTENT 2 !"
       },
       {
-        "c" : "CONTENT 3!"
+        "c": "CONTENT 3 !"
       }
     ],
-    "judul" : [
+    "judul": [
       {
-        "h" : "Judul 1"
+        "h": "Judul 1"
       },
       {
-        "h" : "Judul 2"
+        "h": "Judul 2"
       },
       {
-        "h" : "Judul 3"
-      }
-      
-    ],
-    "artikel" : [
-      {
-        "a" :"ARTIKEL 1 "
-      },
-      {
-        "a" :"ARTIKEL 2 "
-      },
-      {
-        "a" :"ARTIKEL 3 "
+        "h": "Judul 3"
       }
     ],
-    "title" : [
+    "artikel": [
       {
-        "t" : "Title 1"
+        "a": "ARTIKEL 1 "
       },
       {
-        "t" : "Title 2"
+        "a": "ARTIKEL 2 "
       },
       {
-        "t" : "Title 3"
-      }
-      
-    ]
-  },
-  "istirahat" : {
-    "salam" : "salam persiapan",
-    "gambar" : [
-      {
-        "g" : ".jpg"
-      },
-      {
-        "g" : ".jpg"
-      },
-      {
-        "g" : ".jpg"
+        "a": "ARTIKEL 3 "
       }
     ],
-    "content" : [
+    "title": [
       {
-        "c" : "CONTENT !"
+        "t": "Title 1"
       },
       {
-        "c" : "CONTENT 2 !"
+        "t": "Title 2"
       },
       {
-        "c" : "CONTENT 3 !"
+        "t": "Title 3"
       }
-    ],
-    "judul" : [
-      {
-        "h" : "Judul 1"
-      },
-      {
-        "h" : "Judul 2"
-      },
-      {
-        "h" : "Judul 3"
-      }
-      
-    ],
-    "artikel" : [
-      {
-        "a" :"ARTIKEL 1 "
-      },
-      {
-        "a" :"ARTIKEL 2 "
-      },
-      {
-        "a" :"ARTIKEL 3 "
-      }
-    ],
-    "title" : [
-      {
-        "t" : "Title 1"
-      },
-      {
-        "t" : "Title 2"
-      },
-      {
-        "t" : "Title 3"
-      }
-      
-    ]
-  },
-  "aktivitas" : {
-    "salam" : "Wahh, kayaknya udah ready nih buat kegiatan hari ini!",
-    "gambar" : [
-      {
-        "g" : ".jpg"
-      },
-      {
-        "g" : ".jpg"
-      },
-      {
-        "g" : ".jpg"
-      }
-    ],
-    "content" : [
-      {
-        "c" : "CONTENT !"
-      },
-      {
-        "c" : "CONTENT 2 !"
-      },
-      {
-        "c" : "CONTENT 3 !"
-      }
-    ],
-    "judul" : [
-      {
-        "h" : "Judul 1"
-      },
-      {
-        "h" : "Judul 2"
-      },
-      {
-        "h" : "Judul 3"
-      }
-      
-    ],
-    "artikel" : [
-      {
-        "a" :"ARTIKEL 1 "
-      },
-      {
-        "a" :"ARTIKEL 2 "
-      },
-      {
-        "a" :"ARTIKEL 3 "
-      }
-    ],
-    "title" : [
-      {
-        "t" : "Title 1"
-      },
-      {
-        "t" : "Title 2"
-      },
-      {
-        "t" : "Title 3"
-      }
-      
     ]
   }
-
 }
-      
-    
-
-
-     
-    
-

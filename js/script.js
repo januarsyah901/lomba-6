@@ -42,10 +42,10 @@ if (input < data.x) {
 
 // eksekusi file
 let str = '<img src="img/'+data["gambar"][0]["g"]+'" class="figure-img img-fluid rounded" alt="..."></img>'
-$('#salam').append('<div>'+data["salam"]+'</>')
-$('#content').append('<div>'+data["content"][0]["c"]+'</>')
-$('#content2').append('<div>'+data["content"][1]["c"]+'</>')
-$('#content3').append('<div>'+data["content"][2]["c"]+'</>')
+$('#salam').text(data["salam"])
+$('#content').text(data["content"][0]["c"])
+$('#content2').text(data["content"][1]["c"])
+$('#content3').text(data["content"][2]["c"])
 $('#h').text(data["judul"][0]["h"])
 $('#h2').text(data["judul"][1]["h"])
 $('#h3').text(data["judul"][2]["h"])
