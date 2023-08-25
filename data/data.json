@@ -10,6 +10,15 @@
       },
       {
         "g": "bangun3.jpg"
+      },
+      {
+        "g": "bangun4.jpg"
+      },
+      {
+        "g": "bangun5.jpg"
+      },
+      {
+        "g": "bangun6.jpg"
       }
     ],
     "judul": [
@@ -25,13 +34,13 @@
     ],
     "content": [
       {
-        "c": "Membereskan kembali kasur setelah bangun tidur memiliki beberapa manfaat bagi kesehatan, seperti membantu meningkatkan kualitas tidur dengan menciptakan lingkungan tidur yang bersih dan nyaman. Selain itu, tindakan ini dapat membantu mengurangi potensi alergi dan iritasi yang dapat muncul akibat debu atau tungau di kasur. Melakukan tindakan kecil ini juga bisa memberikan perasaan keteraturan dan kedisiplinan, yang pada gilirannya dapat berkontribusi pada kesehatan mental dan kualitas hidup secara keseluruhan."
+        "c": "Membereskan kembali kasur setelah bangun tidur memiliki beragam manfaat kesehatan. Tindakan ini membantu meningkatkan kualitas tidur dengan menciptakan lingkungan tidur yang bersih dan nyaman. Selain itu, kasur yang rapi dapat mengurangi risiko alergi dan iritasi akibat debu atau tungau. Melakukan ini juga menciptakan perasaan keteraturan dan kedisiplinan, yang mendukung kesehatan mental dan kualitas hidup. Dengan merawat tempat tidur, kita merawat kesehatan dan kenyamanan kita sendiri, serta menciptakan fondasi tidur yang lebih baik untuk menjalani hari dengan energi dan semangat yang optimal."
       },
       {
-        "c": "Tindakan sederhana ini dapat membantu menghidrasi tubuh, memberikan energi awal yang menyegarkan, dan memulai hari dengan penuh semangat."
+        "c": "Minum air putih adalah tindakan sederhana yang memiliki dampak besar bagi kesehatan dan kesejahteraan kita. Dengan seteguk air segar, tubuh kita mendapatkan hidrasi yang diperlukan untuk menjaga fungsi organ, sirkulasi darah, dan metabolisme yang optimal. Bahkan, saat matahari baru terbit, seteguk air dingin bisa memberikan energi awal yang menyegarkan dan memberi semangat baru untuk memulai hari. Air putih tidak hanya melembapkan tubuh, tetapi juga memberi semacam <b>kickstart</b> yang membantu melawan kantuk dan menjadikan kita lebih siap menghadapi aktivitas yang menanti."
       },
       {
-        "c": "Dengan melakukan peregangan ringan serangkaian gerakan lembut yang dilakukan setelah bangun tidur. Ini membantu merangsang sirkulasi darah, mengendurkan otot yang kaku setelah tidur, dan meningkatkan fleksibilitas tubuh. Peregangan ringan juga dapat membantu merasa lebih siap menghadapi hari dan mengurangi risiko cedera saat melakukan aktivitas fisik."
+        "c": "Peregangan ringan adalah serangkaian gerakan lembut yang dilakukan usai bangun tidur. Gerakan ini memiliki manfaat luar biasa bagi tubuh Anda. Saat Anda melakukan peregangan ringan, sirkulasi darah terstimulasi, otot-otot yang kaku setelah tidur menjadi lebih rileks, dan fleksibilitas tubuh meningkat. Tak hanya itu, peregangan ringan juga mempersiapkan Anda untuk menghadapi hari dengan semangat penuh. Selain memberikan manfaat fisik, praktik ini dapat mengurangi risiko cedera saat Anda menjalani aktivitas fisik. Menjadikan peregangan ringan sebagai bagian rutinitas pagi Anda adalah langkah cerdas untuk membantu tubuh dan pikiran Anda tetap segar dan siap untuk menjalani tantangan harian."
       }
     ],
     "title": [
@@ -56,7 +65,7 @@
         "a": "Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
       }
     ],
-    "pertanyaan": "tidur jam berapa semalam?",
+    "pertanyaan": "tidur berapa jam berapa semalam?",
     "x": 7,
     "y": 10,
     "kurang": "ih ayangg, kok bentar banget tidurnya, ngapain aja sih, ntar sakit gimana?",
@@ -74,6 +83,15 @@
       },
       {
         "g": "olahraga3.jpg"
+      },
+      {
+        "g": "olahraga4.jpg"
+      },
+      {
+        "g": "olahraga5.jpg"
+      },
+      {
+        "g": "olahraga6.jpg"
       }
     ],
     "judul": [
@@ -89,7 +107,7 @@
     ],
     "content": [
       {
-        "c": "Jangan khawatir, tidak perlu memulai dengan latihan yang terlalu berat. Mulailah dengan peregangan ringan untuk merenggangkan otot-otot Anda. Peregangan ini bisa membantu Anda merasa lebih rileks dan siap untuk beraktivitas. Jadi, tidak perlu terlalu berat, yang penting Anda merasa nyaman dan santai."
+        "c": "Jangan khawatir, tidak perlu memulai dengan latihan yang terlalu berat. Mulailah dengan peregangan ringan untuk merenggangkan otot-otot Anda. Peregangan ini bisa membantu Anda merasa lebih rileks dan siap untuk beraktivitas. Jadi, tidak perlu terlalu berat, yang penting Anda merasa nyaman dan santai.Jika Anda merasa enggan atau belum terbiasa melakukan latihan berat, jangan khawatir. Anda bisa memulai dengan latihan ringan yang tetap bermanfaat bagi kesehatan Anda. Mengenali bahwa konsistensi lebih penting daripada intensitas, Anda dapat memilih aktivitas fisik yang sesuai dengan kemampuan dan keinginan Anda. Latihan seperti berjalan cepat, senam ringan, atau peregangan adalah beberapa contoh yang dapat Anda lakukan. Melalui langkah-langkah kecil ini, Anda dapat membangun kebiasaan sehat dan membawa manfaat positif bagi tubuh serta kesejahteraan secara keseluruhan."
       },
       {
         "c": "Olahraga memiliki manfaat besar bagi kesehatan fisik dan mental. Dengan berolahraga secara teratur, Anda dapat meningkatkan kebugaran, menjaga berat badan yang sehat, dan merasa lebih baik secara keseluruhan. Olahraga juga dapat membantu mengurangi stres, meningkatkan mood, dan meningkatkan energi.<br/>Idealnya, disarankan untuk berolahraga setidaknya 3-5 hari seminggu. Ini dapat mencakup kombinasi aktivitas aerobik seperti berjalan kaki, jogging, berenang, atau bersepeda, serta latihan kekuatan seperti angkat beban atau pilates. Penting untuk memberikan tubuh waktu untuk beristirahat, jadi jangan ragu untuk mengatur jadwal latihan yang sesuai dengan keseharian Anda."
@@ -173,7 +191,7 @@
         "a": "Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
       }
     ],
-    "pertanyaan": "diantara 1 sampai 10, seberapa semangat kah kamu?",
+    "pertanyaan": "diantara 1 sampai 10, seberapa siap kah kamu untuk memulai hari?",
     "x": 4,
     "y": 7,
     "kurang": "yang semangat dong!",
@@ -198,7 +216,7 @@
         "c": "Selalu menjaga kepercayaan diri adalah salah satu kunci untuk meraih keberhasilan dan menghadapi tantangan hidup dengan sikap positif. Memiliki kepercayaan diri berarti memiliki keyakinan pada kemampuan dan potensi diri sendiri. Ini adalah dorongan yang kuat yang membimbing kita dalam menghadapi berbagai situasi dengan semangat tak kenal takut.<br/>Dengan kepercayaan diri yang kokoh, kita dapat mengatasi rintangan dan mengambil risiko yang diperlukan untuk mencapai tujuan kita. Ini memberi kita keberanian untuk berbicara, bertindak, dan menciptakan perubahan. Kepercayaan diri yang tinggi juga memancarkan pesona yang menarik orang lain dan menciptakan hubungan sosial yang lebih kuat."
       },
       {
-        "c": "Jangan pernah lupakan pentingnya minum air putih sepanjang hari. Seperti matahari yang memberikan cahaya pada alam, air putih memberikan kehidupan bagi tubuh kita. Saat kita mengingat untuk minum air putih dengan cukup, kita memberi diri kita dukungan yang tak ternilai untuk menjaga kesehatan dan kesejahteraan.<br/>Air putih adalah sumber hidrasi yang esensial bagi tubuh kita. Ini membantu menjaga keseimbangan elektrolit, mengatur suhu tubuh, dan mendukung fungsi organ-organ vital. Dengan setiap tegukan, kita memberi nutrisi kepada sel-sel kita, memastikan mereka berfungsi dengan optimal."
+        "c": "Seperti matahari yang menerangi dunia, air putih memberikan kehidupan bagi tubuh kita. Penting untuk tidak pernah melupakan manfaat minum air putih sepanjang hari. Ini adalah sumber hidrasi penting yang menjaga keseimbangan elektrolit, suhu tubuh, dan mendukung organ vital. Saat kita ingat untuk minum air dengan cukup, kita memberikan dukungan yang tak ternilai bagi kesehatan dan kesejahteraan kita. Setiap tegukan air adalah nutrisi bagi sel-sel kita, memastikan kinerja mereka optimal. Jadi, mari terus beri cahaya pada tubuh kita dengan menjaga asupan air putih dan memberikan energi untuk menghadapi hari."
       },
       {
         "c": "Berpikir dalam keadaan tenang dan terfokus sangatlah penting, dan salah satu cara untuk mencapainya adalah dengan menghindari tergesa-gesa dalam bernafas. Seperti angin yang berhembus perlahan-lahan, begitu pula bernafas dengan santai memberi kesempatan bagi pikiran untuk beristirahat dan merenung.<br/>Ketika kita terburu-buru dalam bernafas, otomatis pikiran kita juga terdorong untuk berlari-lari. Ini dapat memicu stres, kecemasan, atau ketidakfokusan. Namun, dengan mengambil nafas yang dalam dan perlahan, kita memberikan diri kita momen untuk mengendalikan kecemasan dan mengarahkan pikiran ke hal-hal yang lebih positif."
@@ -559,7 +577,7 @@
     "lebih": "kamu haus, hehe, ga papa air memang penting bagi tubuh"
   },
   "begadang": {
-    "salam": "kok masih bangunn, dah malem loh. Ntar sakit bagaimana?",
+    "salam": " ayangggg,, ,kok masih bangunn, dah malem loh. Ntar kalo sakit bagaimana?",
     "gambar": [
       {
         "g": "begadang.jpg"
@@ -584,7 +602,7 @@
     ],
     "judul": [
       {
-        "h": "gak baik loh begadang itu"
+        "h": "Begadang gak baik loh"
       },
       {
         "h": "memang harus begadang ya :("
@@ -619,8 +637,8 @@
     "pertanyaan": "berapa jam lagi baru tidur emang?",
     "x": 1,
     "y": 2,
-    "kurang": "beneran loh!",
-    "pas": "yaudah cepetan yaa!",
-    "lebih": "kok masih lama sih?!"
+    "kurang": "beneran loh yanggg!",
+    "pas": "yaudah cepetan yaa yang!",
+    "lebih": "ih ayangg, kok masih lama sih?!"
   }
 }
