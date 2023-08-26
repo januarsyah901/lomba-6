@@ -7,27 +7,27 @@ $.getJSON("data/data.json", function (data) {
 
   // logika penyesuaian waktu
   if (currentHour >= 4 && currentHour < 5) {
-  //   data = data.bangun;
-  // } else if (currentHour >= 5 && currentHour < 6) {
-  //   data = data.olahraga
-  //   } else if (currentHour >= 6 && currentHour < 7) {
-  //       data = data.persiapan
-  //   } else if (currentHour >= 7 && currentHour < 11) {
-  //       data = data.aktivitas
-  //   } else if (currentHour >= 11 && currentHour < 13) {
-  //       data = data.istirahat
-  //   } else if (currentHour >= 13 && currentHour < 16) {
-  //       data = data.minum
-  //   } else if (currentHour >= 16 && currentHour < 17) {
-  //       data = data.sore
-  //   } else if (currentHour >= 17 && currentHour < 20) {
-  //       data = data.keluarga
-  //   } else if (currentHour >= 20 && currentHour < 23) {
-  //       data = data.tidur
-  //   } else if (currentHour >= 23 && currentHour < 4) {
-        // data = data.begadang
+    data = data.bangun;
+  } else if (currentHour >= 5 && currentHour < 6) {
+    data = data.olahraga
+    } else if (currentHour >= 6 && currentHour < 7) {
+        data = data.persiapan
+    } else if (currentHour >= 7 && currentHour < 11) {
+        data = data.aktivitas
+    } else if (currentHour >= 11 && currentHour < 13) {
+        data = data.istirahat
+    } else if (currentHour >= 13 && currentHour < 16) {
+        data = data.minum
+    } else if (currentHour >= 16 && currentHour < 17) {
+        data = data.sore
+    } else if (currentHour >= 17 && currentHour < 20) {
+        data = data.keluarga
+    } else if (currentHour >= 20 && currentHour < 23) {
+        data = data.tidur
+    } else if (currentHour >= 23 && currentHour < 4) {
+        data = data.begadang
   } else {
-    data = data.keluarga;
+    data = data.olahraga;
   }
   // logika pertanyaan
   $(document).ready(function() {
@@ -57,7 +57,7 @@ $.getJSON("data/data.json", function (data) {
       
   // eksekusi file
   $("#salam").text(data["salam"]);  
-  $("#pertanyaan").text(data["pertanyaan"]);
+  $("#pertanyaan").append(data["pertanyaan"]);
   $("#faq").text(data["faq"][0]["t"]);  
   $("#faq-2").text(data["faq"][1]["t"]);  
   $("#faq-3").text(data["faq"][2]["t"]);  
