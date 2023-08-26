@@ -65,12 +65,12 @@
         "a": "Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
       }
     ],
-    "pertanyaan": "tidur berapa jam berapa semalam?",
+    "pertanyaan": "tidur berapa jam kemarin?",
     "x": 7,
     "y": 10,
-    "kurang": "ih ayangg, kok bentar banget tidurnya, ngapain aja sih, ntar sakit gimana?",
-    "pas": "nahh gitu dong, tidur tepat waktu lagi ya yang",
-    "lebih": "kamu kecapean ya yangg, :("
+    "kurang": "loh, kok bentar banget tidurnya, ngapain aja, ntar kalo sakit gimana?",
+    "pas": "nahh gitu dong, tidur tepat waktu lagi ya!",
+    "lebih": "kamu kecapean ya. :("
   },
   "olahraga": {
     "salam": "yuk olahraga biar sehat!",
@@ -146,7 +146,7 @@
     "lebih": "waduhhh, calon binaragawan sih ini"
   },
   "persiapan": {
-    "salam": "dah jam segini ini, kamu ga siap siap?",
+    "salam": "dah jam segini nih, kamu ga siap siap?",
     "gambar": [
       {
         "g": "persiapan.jpg"
@@ -191,15 +191,26 @@
         "a": "Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
       }
     ],
+    "title": [
+      {
+        "t": "Apa yang terjadi ketika kamu bangun tidur?"
+      },
+      {
+        "t": "Bangun tidur tubuh malah semakin pegal, simak ulasannya"
+      },
+      {
+        "t": "Saat tidur tubuh ngapain ya?"
+      }
+    ],
     "pertanyaan": "diantara 1 sampai 10, seberapa siap kah kamu untuk memulai hari?",
     "x": 4,
     "y": 7,
-    "kurang": "yang semangat dong!",
-    "pas": "tamabah semangat lagi yaa!",
-    "lebih": "kalo ini sih pasti lancar jaya harinya"
+    "kurang": "waduh kok kurang siap hari ini?",
+    "pas": "tamabah siap lagi yaa!",
+    "lebih": "kalo ini sih pasti cerah harinya"
   },
   "aktifitas": {
-    "salam": "siap ga? Siaplah masa engga, yuk beraktivitas!",
+    "salam": "Siap ga? Siaplah masa engga, yuk beraktivitas!",
     "gambar": [
       {
         "g": "aktivitas.jpg"
@@ -242,6 +253,17 @@
       },
       {
         "a": "Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
+      }
+    ],
+    "title": [
+      {
+        "t": "Apa yang terjadi ketika kamu bangun tidur?"
+      },
+      {
+        "t": "Bangun tidur tubuh malah semakin pegal, simak ulasannya"
+      },
+      {
+        "t": "Saat tidur tubuh ngapain ya?"
       }
     ],
     "pertanyaan": "diantara 1 sampai 10, seberapa semangat kah kamu?",
@@ -444,7 +466,7 @@
     "y": 8,
     "kurang": "wah lumayan cepet juga ya waktu kerjamu",
     "pas": "semangat terus kerjanyaaa!",
-    "lebih": "aduhh, lama banget, tapi tetep semangat ya kejanya!"
+    "lebih": "aduhh, lama banget, tapi tetep semangat ya kerjanya!"
   },
   "keluarga": {
     "salam": "family time nihhh",
@@ -569,15 +591,15 @@
       }
     ],
 
-    "pertanyaan": "sudah minum berapa gelas air putih hari ini?",
+    "pertanyaan": "sudah minum berapa gelas air putih hari ini?<br>2 liter = 8 gelas",
     "x": 8,
     "y": 11,
     "kurang": "kok kurang sih minumnya, kan minimal 2 liter",
     "pas": "pas, moga makin sehat tubuhnya",
-    "lebih": "kamu haus, hehe, ga papa air memang penting bagi tubuh"
+    "lebih": "kamu haus ya, hehe, ga papa air memang penting bagi tubuh"
   },
   "begadang": {
-    "salam": " ayangggg,, ,kok masih bangunn, dah malem loh. Ntar kalo sakit bagaimana?",
+    "salam": " loh kok masih bangunn, dah malem loh<br> Ntar kalo sakit bagaimana?",
     "gambar": [
       {
         "g": "begadang.jpg"
@@ -637,8 +659,8 @@
     "pertanyaan": "berapa jam lagi baru tidur emang?",
     "x": 1,
     "y": 2,
-    "kurang": "beneran loh yanggg!",
-    "pas": "yaudah cepetan yaa yang!",
-    "lebih": "ih ayangg, kok masih lama sih?!"
+    "kurang": "beneran lo!",
+    "pas": "yaudah cepetan yaa!",
+    "lebih": "loh, kok masih lama sih?!"
   }
 }

@@ -19,7 +19,7 @@ $.getJSON("data/data.json", function (data) {
   //   } else if (currentHour >= 13 && currentHour < 16) {
   //       data = data.minum
   //   } else if (currentHour >= 16 && currentHour < 17) {
-  //       data = data.hiling
+  //       data = data.sore
   //   } else if (currentHour >= 17 && currentHour < 20) {
   //       data = data.keluarga
   //   } else if (currentHour >= 20 && currentHour < 23) {
@@ -27,7 +27,7 @@ $.getJSON("data/data.json", function (data) {
   //   } else if (currentHour >= 23 && currentHour < 4) {
         // data = data.begadang
   } else {
-    data = data.istirahat;
+    data = data.aktifitas;
   }
   // logika pertanyaan
   $(document).ready(function() {
