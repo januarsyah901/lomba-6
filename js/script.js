@@ -13,7 +13,7 @@ $.getJSON("data/data.json", function (data) {
   //   } else if (currentHour >= 6 && currentHour < 7) {
   //       data = data.persiapan
   //   } else if (currentHour >= 7 && currentHour < 11) {
-  //       data = data.aktifitas
+  //       data = data.aktivitas
   //   } else if (currentHour >= 11 && currentHour < 13) {
   //       data = data.istirahat
   //   } else if (currentHour >= 13 && currentHour < 16) {
@@ -27,7 +27,7 @@ $.getJSON("data/data.json", function (data) {
   //   } else if (currentHour >= 23 && currentHour < 4) {
         // data = data.begadang
   } else {
-    data = data.aktifitas;
+    data = data.keluarga;
   }
   // logika pertanyaan
   $(document).ready(function() {
@@ -57,25 +57,35 @@ $.getJSON("data/data.json", function (data) {
       
   // eksekusi file
   $("#salam").text(data["salam"]);  
-  $("#pertanyaan").text(data["pertanyaan"]);  
+  $("#pertanyaan").text(data["pertanyaan"]);
+  $("#faq").text(data["faq"][0]["t"]);  
+  $("#faq-2").text(data["faq"][1]["t"]);  
+  $("#faq-3").text(data["faq"][2]["t"]);  
+  $("#faq-4").text(data["faq"][3]["t"]);  
+  $("#faq-5").text(data["faq"][4]["t"]);  
+  $("#cfaq").text(data["faq"][0]["a"]);  
+  $("#cfaq-2").text(data["faq"][1]["a"]);  
+  $("#cfaq-3").text(data["faq"][2]["a"]);  
+  $("#cfaq-4").text(data["faq"][3]["a"]);  
+  $("#cfaq-5").text(data["faq"][4]["a"]);  
   $("#h").html(`
         <div id="h" class="col-lg-6">
             <figure class="rounded"><img src="/img/akbar.jpg" alt=""></figure>
-            <h2 class="display-4 mb-3">`+data["judul"][0]["h"]+`</h2>
+            <h2 class="display-4 mb-3">`+data["content"][0]["h"]+`</h2>
             <p class="lead fs-lg">`+data["content"][0]["c"]+`</p>
         </div>
         `);
   $("#h2").html(`
         <div id="h" class="col-lg-6">
             <figure class="rounded"><img src="/img/akbar.jpg" alt=""></figure>
-            <h2 class="display-4 mb-3">`+data["judul"][1]["h"]+`</h2>
+            <h2 class="display-4 mb-3">`+data["content"][1]["h"]+`</h2>
             <p class="lead fs-lg">`+data["content"][1]["c"]+`</p>
         </div>
         `);
   $("#h3").html(`
         <div id="h" class="col-lg-6">
             <figure class="rounded"><img src="/img/akbar.jpg" alt=""></figure>
-            <h2 class="display-4 mb-3">`+data["judul"][2]["h"]+`</h2>
+            <h2 class="display-4 mb-3">`+data["content"][2]["h"]+`</h2>
             <p class="lead fs-lg">`+data["content"][2]["c"]+`</p>
         </div>
         `);
