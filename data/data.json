@@ -1,6 +1,6 @@
 {
   "bangun": {
-    "salam": "Bangun bangun!, ayo mulai hari mu",
+    "salam": "Bangun bangun!, Ayo mulai hari mu",
     "content": [
           {
             "h": "merapikan kembali tempat tidur itu sangat baik loh!",
@@ -14,8 +14,7 @@
             "h": "Peregangan dulu yuk, biar ga tengang!",
             "c": "Peregangan ringan adalah serangkaian gerakan lembut yang dilakukan usai bangun tidur. Gerakan ini memiliki manfaat luar biasa bagi tubuh Anda. Saat Anda melakukan peregangan ringan, sirkulasi darah terstimulasi, otot-otot yang kaku setelah tidur menjadi lebih rileks, dan fleksibilitas tubuh meningkat. Tak hanya itu, peregangan ringan juga mempersiapkan Anda untuk menghadapi hari dengan semangat penuh. Selain memberikan manfaat fisik, praktik ini dapat mengurangi risiko cedera saat Anda menjalani aktivitas fisik. Menjadikan peregangan ringan sebagai bagian rutinitas pagi Anda adalah langkah cerdas untuk membantu tubuh dan pikiran Anda tetap segar dan siap untuk menjalani tantangan harian."
           }
-    ],
-      
+    ],     
     "title": [
       {
         "t": "Apa yang terjadi ketika kamu bangun tidur?"
@@ -60,15 +59,15 @@
             "a": "Bangun pagi dapat memiliki dampak positif yang signifikan pada kesehatan mental Anda. Waktu pagi yang tenang dapat memberikan Anda kesempatan untuk bermeditasi atau merenung, yang dapat mengurangi stres dan kecemasan. Selain itu, memiliki rutinitas pagi yang terstruktur dapat memberikan perasaan kontrol dan kestabilan, yang berkontribusi pada kesejahteraan mental Anda. Menghabiskan waktu di pagi hari untuk melakukan hal-hal yang Anda nikmati juga dapat meningkatkan mood secara keseluruhan."
           }
     ],      
-    "pertanyaan": "tidur berapa jam kemarin?",
+    "pertanyaan": "Tidur berapa jam kemarin?",
     "x": 7,
     "y": 10,
-    "kurang": "loh, kok bentar banget tidurnya, ngapain aja, ntar kalo sakit gimana?",
-    "pas": "nahh gitu dong, tidur tepat waktu lagi ya!",
-    "lebih": "kamu kecapean ya. :("
+    "kurang": "Loh, kok bentar banget tidurnya, ngapain aja, ntar kalo sakit gimana?",
+    "pas": "Nahh gitu dong, tidur tepat waktu lagi ya!",
+    "lebih": "Kamu kecapean ya. :("
   },
   "olahraga": {
-    "salam": "yuk olahraga biar sehat!",
+    "salam": "Yuk olahraga biar sehat!",
     "content": [
         {
           "h": "ga usah berat-berat yang ringan aja dulu",
@@ -127,15 +126,15 @@
           "a": "Pada umumnya, olahraga ringan seperti berjalan atau stretching ringan bisa diterima saat Anda merasa sedikit tidak enak badan. Namun, jika Anda mengalami gejala yang lebih serius seperti demam, batuk, atau nyeri tubuh, disarankan untuk istirahat total sampai tubuh pulih sepenuhnya. Berolahraga dengan sakit dapat memperburuk kondisi Anda dan memperlambat proses penyembuhan. Selalu utamakan kesehatan dan dengarkan tubuh Anda."
         }
     ],
-    "pertanyaan": "push-up berapa kali pagi ini?",
+    "pertanyaan": "Push-up berapa kali pagi ini?",
     "x": 4,
     "y": 7,
-    "kurang": "mungkin kamu bisa mencobanya besok",
-    "pas": "wah, bisa dong besok ditingkatin!",
-    "lebih": "waduhhh, calon binaragawan sih ini"
+    "kurang": "Mungkin kamu bisa mencobanya besok",
+    "pas": "Wah, bisa dong besok ditingkatin!",
+    "lebih": "Waduhhh, calon binaragawan sih ini"
   },
   "persiapan": {
-    "salam": "dah jam segini nih, kamu ga siap siap?",
+    "salam": "Dah jam segini nih, kamu ga siap siap?",
     "content": [
           {
             "h": "tahu gak fakta menarik dari mandi pagi?",
@@ -149,8 +148,7 @@
             "h": "jangan lupa siapkan senyummu ya!",
             "c": "Senyum di pagi hari memiliki dampak yang luar biasa pada berbagai aspek kesehatan dan kesejahteraan kita. Ketika kita memulai hari dengan senyuman, kita memberi diri sendiri manfaat emosional dan fisik yang signifikan. Senyum secara langsung merangsang pelepasan hormon endorfin, yang meredakan stres dan meningkatkan mood kita. Rasanya seperti awal yang cerah, yang mengirim sinyal positif ke otak kita dan membantu kita menghadapi hari dengan semangat yang lebih baik.<br>Lebih dari sekadar menaikkan mood, senyum juga memiliki dampak positif pada kesejahteraan sosial kita. Ini adalah cara alami untuk membuka pintu interaksi positif dengan orang lain. Senyuman membuat kita lebih ramah dan mudah didekati, memperkuat ikatan dengan teman, keluarga, dan rekan kerja. Ini menciptakan lingkungan sosial yang lebih positif dan hangat."
           }
-    ],
-      
+    ],    
     "artikel": [
       {
         "a": "Ketika Anda bangun tidur, tubuh mengalami beberapa perubahan. Sistem saraf pusat mengirim sinyal untuk menghentikan produksi hormon melatonin yang membuat Anda mengantuk. Pernapasan dan detak jantung meningkat, memberikan lebih banyak oksigen ke seluruh tubuh. Aliran darah dan sirkulasi meningkatkan pasokan nutrisi dan oksigen ke otak dan otot. Pencernaan juga mulai berfungsi lagi setelah beristirahat semalaman. Selain itu, kulit juga bisa terasa lebih kering karena kehilangan kelembapan saat tidur."
@@ -195,12 +193,12 @@
             "a": "Menjaga energi dan semangat sepanjang hari memerlukan perhatian terhadap beberapa faktor. Pastikan Anda mendapatkan tidur yang cukup untuk pemulihan tubuh. Konsumsi makanan bergizi dan hindari makanan berat yang dapat membuat Anda merasa mengantuk. Lakukan istirahat singkat setiap beberapa jam untuk memberi otak dan tubuh Anda waktu untuk merevitalisasi diri. Lakukan juga latihan pernapasan atau gerakan ringan jika Anda merasa kelelahan. Terakhir, lakukan aktivitas yang Anda nikmati dan memiliki makna bagi Anda untuk menjaga semangat Anda tetap tinggi."
           }
     ],
-    "pertanyaan": "diantara 1 sampai 10, seberapa siap kah kamu untuk memulai hari?",
+    "pertanyaan": "Diantara 1 sampai 10, seberapa siap kah kamu untuk memulai hari?",
     "x": 4,
     "y": 7,
-    "kurang": "waduh kok kurang siap hari ini?",
-    "pas": "tamabah siap lagi yaa!",
-    "lebih": "kalo ini sih pasti cerah harinya"
+    "kurang": "Waduh kok kurang siap hari ini?",
+    "pas": "Tamabah siap lagi yaa!",
+    "lebih": "Kalo ini sih pasti cerah harinya"
   },
   "aktivitas": {
     "salam": "Siap ga? Siaplah masa engga, yuk beraktivitas!",
@@ -262,15 +260,15 @@
             "a": "Menjaga semangat dan motivasi saat menghadapi rutinitas pagi yang padat memerlukan pendekatan yang positif. Fokus pada tujuan jangka panjang Anda dan ingat mengapa Anda melakukan pekerjaan atau menempuh pendidikan. Luangkan waktu untuk merayakan pencapaian kecil, meskipun itu hanya menyelesaikan tugas kecil. Cobalah variasi dalam rutinitas pagi Anda untuk menjaga kesegaran, misalnya dengan mencoba aktivitas baru atau mengganti rute perjalanan. Berbicara dengan rekan kerja atau teman sekolah juga bisa meningkatkan semangat dan membangun dukungan sosial."
           }
     ],
-    "pertanyaan": "diantara 1 sampai 10, seberapa semangat kah kamu?",
+    "pertanyaan": "Diantara 1 sampai 10, seberapa semangat kah kamu?",
     "x": 4,
     "y": 7,
-    "kurang": "yang semangat dong!",
-    "pas": "tamabah semangat lagi yaa!",
-    "lebih": "kalo ini sih pasti lancar jaya harinya"
+    "kurang": "Yang semangat dong!",
+    "pas": "Tambah semangat lagi yaa!",
+    "lebih": "Kalo ini sih pasti lancar jaya harinya"
   },
   "istirahat": {
-    "salam": "istirahat dulu ga sih",
+    "salam": "Istirahat dulu ga sih. Kasian kalo badanmu terlalu lelah",
     "content": [
           {
             "h": "ternyata penting loh istirahat itu",
@@ -329,15 +327,15 @@
             "a": "Menjaga keseimbangan antara istirahat siang dan produktivitas penting agar Anda mendapatkan manfaat optimal dari keduanya. Tetapkan batas waktu yang jelas untuk istirahat siang dan patuhi durasi yang telah Anda tentukan. Gunakan timer atau pengingat untuk membantu Anda mengontrol waktu istirahat. Jika memungkinkan, manfaatkan istirahat siang untuk melakukan aktivitas yang tidak terlalu menguras energi, seperti berjalan-jalan atau membaca. Setelah istirahat, kembalilah ke aktivitas dengan semangat dan fokus yang baru."
           }
     ],
-    "pertanyaan": "diantara 1 sampai 10, seberapa semangat kah kamu?",
+    "pertanyaan": "Diantara 1 sampai 10, seberapa semangat kah kamu?",
     "x": 4,
     "y": 7,
-    "kurang": "yang semangat dong!",
-    "pas": "tamabah semangat lagi yaa!",
-    "lebih": "kalo ini sih pasti lancar jaya harinya"
+    "kurang": "Yang semangat dong!",
+    "pas": "Tambah semangat lagi yaa!",
+    "lebih": "Kalo ini sih pasti lancar jaya harinya"
   },
   "minum": {
-    "salam": "hey, jangan lupa air putihnya ya!",
+    "salam": "Hey, jangan lupa air putihnya ya!",
     "content": [
           {
             "h": "kenapa kita butuh air putih?",
@@ -396,15 +394,15 @@
             "a": "Ada beberapa cara yang dapat membantu Anda menjaga kebiasaan minum air yang cukup setiap hari. Selalu bawa botol air minum saat bepergian untuk mengingatkan Anda untuk minum. Gunakan pengingat pada ponsel atau jam tangan untuk mengingatkan Anda untuk minum air setiap beberapa jam. Anda juga bisa mencoba menambahkan rasa pada air dengan menambahkan irisan buah-buahan segar atau herbal. Menghitung berapa banyak gelas yang sudah diminum setiap hari juga dapat membantu Anda memantau asupan air Anda."
           }
     ],
-    "pertanyaan": "diantara 1 sampai 10, seberapa semangat kah kamu?",
+    "pertanyaan": "Diantara 1 sampai 10, seberapa semangat kah kamu?",
     "x": 4,
     "y": 7,
-    "kurang": "yang semangat dong!",
-    "pas": "tamabah semangat lagi yaa!",
-    "lebih": "kalo ini sih pasti lancar jaya harinya"
+    "kurang": "Yang semangat dong!",
+    "pas": "Tamabah semangat lagi yaa!",
+    "lebih": "Kalo ini sih pasti lancar jaya harinya"
   },
   "sore": {
-    "salam": "wahh kayaknya dah selesai nih tugas hari ini",
+    "salam": "Wahh kayaknya dah selesai nih tugas hari ini",
     "content": [
           {
             "h": "yuk jalan-jalan sore!",
@@ -463,15 +461,15 @@
           "a": "Menciptakan rutinitas refreshing di sore hari dapat membantu memulihkan energi dan keseimbangan. Pertama, pilih kegiatan yang Anda nikmati dan dapatkan manfaat positif dari aktivitas tersebut. Tetapkan waktu khusus untuk rutinitas refreshing, seperti setelah pulang kerja atau sekolah. Matikan pemberitahuan pekerjaan atau studi selama waktu ini. Buat lingkungan yang nyaman dan menenangkan untuk melaksanakan rutinitas Anda. Dengan konsisten menjalankan rutinitas refreshing, Anda dapat menghadapi sisa hari dengan semangat baru."
         }
     ],
-    "pertanyaan": "kamu kerja berapa jam sehari?",
+    "pertanyaan": "Kamu kerja berapa jam sehari?",
     "x": 6,
     "y": 8,
-    "kurang": "wah lumayan cepet juga ya waktu kerjamu",
-    "pas": "semangat terus kerjanyaaa!",
-    "lebih": "aduhh, lama banget, tapi tetep semangat ya kerjanya!"
+    "kurang": "Wah lumayan cepet juga ya waktu kerjamu",
+    "pas": "Semangat terus kerjanyaaa!",
+    "lebih": "Aduhh, lama banget, tapi tetep semangat ya kerjanya!"
   },
   "keluarga": {
-    "salam": "family time nihhh",
+    "salam": "Family time nihhh",
     "content": [
           {
             "h": "penting loh waktu keluarga itu",
@@ -530,15 +528,15 @@
           "a": "Menjaga keseimbangan antara waktu keluarga dan komitmen individu adalah kunci penting. Tetapkan waktu khusus untuk keluarga dalam jadwal Anda dan tetap patuhi komitmen tersebut. Buat komunikasi terbuka dengan anggota keluarga mengenai waktu yang Anda perlukan untuk kegiatan pribadi. Prioritaskan kegiatan keluarga yang penting dan hindari mengisi jadwal terlalu padat. Ingatlah bahwa kualitas lebih penting daripada kuantitas; meskipun waktu bersama mungkin terbatas, yang terpenting adalah kualitas interaksi dan hubungan yang Anda bangun bersama keluarga."
         }
       ],
-    "pertanyaan": "berapa jam family time mu?",
+    "pertanyaan": "Berapa jam family time mu?",
     "x": 3,
     "y": 4,
-    "kurang": "harus di manfaatin sih",
-    "pas": "pasti seru yaa",
-    "lebih": "bersyukur banget ya waktunya banyak"
+    "kurang": "Harus di manfaatin sih",
+    "pas": "Pasti seru yaa",
+    "lebih": "Bersyukur banget ya waktunya banyak"
   },
   "tidur": {
-    "salam": "dah malem nihh, yuk tidur!",
+    "salam": "Dah malem nihh, yuk tidur!",
     "content": [
           {
             "h": "manfaat tidur bagi tubuh",
@@ -597,15 +595,15 @@
         "a": "Kurang tidur dapat memiliki dampak serius terhadap kesehatan Anda. Selain mengakibatkan kelelahan dan kurangnya konsentrasi, kurang tidur kronis dapat meningkatkan risiko obesitas, diabetes, penyakit jantung, dan masalah mental seperti depresi dan kecemasan. Sistem kekebalan tubuh juga dapat terpengaruh, membuat Anda lebih rentan terhadap infeksi. Oleh karena itu, penting untuk memberi prioritas pada tidur yang cukup dan berkualitas."
       }
     ],
-    "pertanyaan": "sudah minum berapa gelas air putih hari ini?<br>2 liter = 8 gelas",
+    "pertanyaan": "Sudah minum berapa gelas air putih hari ini?<br>2 liter = 8 gelas",
     "x": 8,
     "y": 11,
-    "kurang": "kok kurang sih minumnya, kan minimal 2 liter",
-    "pas": "pas, moga makin sehat tubuhnya",
-    "lebih": "kamu haus ya, hehe, ga papa air memang penting bagi tubuh"
+    "kurang": "Kok kurang sih minumnya, kan minimal 2 liter",
+    "pas": "Pas, moga makin sehat tubuhnya",
+    "lebih": "Kamu haus ya, hehe, ga papa air memang penting bagi tubuh"
   },
   "begadang": {
-    "salam": " loh kok masih bangunn, dah malem loh <br> Ntar kalo sakit bagaimana?",
+    "salam": "Loh kok masih bangunn, dah malem loh <br> Ntar kalo sakit bagaimana?",
     "content": [
         {
           "h": "Begadang gak baik loh",
@@ -664,11 +662,11 @@
         "a": "Memulihkan pola tidur setelah begadang memerlukan kedisiplinan. Cobalah untuk tidur lebih awal pada malam berikutnya, meskipun tidur malam Anda mungkin sedikit terpotong. Hindari mengonsumsi kafein atau alkohol di sore dan malam hari. Buatlah rutinitas sebelum tidur yang menenangkan, seperti membaca buku atau meditasi. Matikan perangkat elektronik seperti ponsel atau komputer setidaknya satu jam sebelum tidur untuk menghindari paparan cahaya biru yang dapat mengganggu tidur Anda. Dengan konsistensi dan perawatan, pola tidur Anda akan pulih dalam beberapa hari."
       }
     ],
-    "pertanyaan": "berapa jam lagi baru tidur emang?",
+    "pertanyaan": "Berapa jam lagi baru tidur emang?",
     "x": 1,
     "y": 2,
-    "kurang": "beneran lo!",
-    "pas": "yaudah cepetan yaa!",
-    "lebih": "loh, kok masih lama sih?!"
+    "kurang": "Beneran lo!",
+    "pas": "Yaudah cepetan yaa!",
+    "lebih": "Loh, kok masih lama sih?!"
   }
 }
