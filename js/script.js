@@ -206,6 +206,7 @@ $.getJSON("data/data.json", function (data) {
   <!-- /article -->
 </div>
 <!-- /.item-inner -->`);
+
 });
 
 // function add second
