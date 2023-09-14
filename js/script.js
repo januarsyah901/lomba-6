@@ -3,210 +3,296 @@ $.getJSON("data/data.json", function (data) {
   var currentTime = new Date();
 
   // Mendapatkan jam dari waktu saat ini
-  var currentHour = currentTime.getHours();
+  // var currentHour = currentTime.getHours();
+  var currentHour = 5;
 
   // logika penyesuaian waktu
   if (currentHour >= 4 && currentHour < 5) {
     data = data.bangun;
   } else if (currentHour >= 5 && currentHour < 6) {
     data = data.olahraga
-    } else if (currentHour >= 6 && currentHour < 7) {
+  } else if (currentHour >= 6 && currentHour < 7) {
         data = data.persiapan
-    } else if (currentHour >= 7 && currentHour < 11) {
+  } else if (currentHour >= 7 && currentHour < 11) {
         data = data.aktivitas
-    } else if (currentHour >= 11 && currentHour < 13) {
+  } else if (currentHour >= 11 && currentHour < 13) {
         data = data.istirahat
-    } else if (currentHour >= 13 && currentHour < 16) {
+  } else if (currentHour >= 13 && currentHour < 16) {
         data = data.minum
-    } else if (currentHour >= 16 && currentHour < 17) {
+  } else if (currentHour >= 16 && currentHour < 17) {
         data = data.sore
-    } else if (currentHour >= 17 && currentHour < 20) {
+  } else if (currentHour >= 17 && currentHour < 20) {
         data = data.keluarga
-    } else if (currentHour >= 20 && currentHour < 23) {
+  } else if (currentHour >= 20 && currentHour < 23) {
         data = data.tidur
-    } else if (currentHour >= 23 && currentHour < 4) {
+  } else if (currentHour >= 23 && currentHour < 4) {
         data = data.begadang
   } else {
     data = data.olahraga;
   }
   // logika pertanyaan
+  $('#pertanyaan').text(data.pertanyaan);
   $(document).ready(function() {
-      $("#masukkan").click(function() {
-          var input = $("#userInput").val();
-          if (input < data.x) {
-              $('#alert').html(`
-              <div class="alert alert-warning alert-icon" role="alert">
-              <i class="uil uil-star"></i>`+data["kurang"]+`</a>.
-              </div>
-              `);
-            } else if (input >= data.x && input < data.y) {
-                $('#alert').html(`
-                <div class="alert alert-primary alert-icon" role="alert">
-                <i class="uil uil-star"></i>`+data["pas"]+`</a>.
-                </div>
-                `);
-            } else {
-                $('#alert').html(`
-                <div class="alert alert-success alert-icon" role="alert">
-                <i class="uil uil-star"></i>`+data["lebih"]+`</a>.
-                </div>
-                `);
-            }
-        });
-      });
-      
-  // eksekusi file
-  $("#salam").text(data["salam"]);  
-  $("#pertanyaan").append(data["pertanyaan"]);
-  $("#faq").text(data["faq"][0]["t"]);  
-  $("#faq-2").text(data["faq"][1]["t"]);  
-  $("#faq-3").text(data["faq"][2]["t"]);  
-  $("#faq-4").text(data["faq"][3]["t"]);  
-  $("#faq-5").text(data["faq"][4]["t"]);  
-  $("#cfaq").text(data["faq"][0]["a"]);  
-  $("#cfaq-2").text(data["faq"][1]["a"]);  
-  $("#cfaq-3").text(data["faq"][2]["a"]);  
-  $("#cfaq-4").text(data["faq"][3]["a"]);  
-  $("#cfaq-5").text(data["faq"][4]["a"]);  
-  $("#h").html(`
-        <div id="h" class="col-lg-6">
-            <figure class="rounded"><img src="/img/akbar.jpg" alt=""></figure>
-            <h2 class="display-4 mb-3">`+data["content"][0]["h"]+`</h2>
-            <p class="lead fs-lg">`+data["content"][0]["c"]+`</p>
-        </div>
-        `);
-  $("#h2").html(`
-        <div id="h" class="col-lg-6">
-            <figure class="rounded"><img src="/img/akbar.jpg" alt=""></figure>
-            <h2 class="display-4 mb-3">`+data["content"][1]["h"]+`</h2>
-            <p class="lead fs-lg">`+data["content"][1]["c"]+`</p>
-        </div>
-        `);
-  $("#h3").html(`
-        <div id="h" class="col-lg-6">
-            <figure class="rounded"><img src="/img/akbar.jpg" alt=""></figure>
-            <h2 class="display-4 mb-3">`+data["content"][2]["h"]+`</h2>
-            <p class="lead fs-lg">`+data["content"][2]["c"]+`</p>
-        </div>
-        `);
-  $("#a").append(`
-<div class="item-inner">
-  <article>
-    <div class="card">
-      <figure class="card-img-top overlay overlay1 hover-scale"><a href="#"> <img src="img/akbar.jpg" alt="" /></a>
-        <figcaption>
-          <h5 class="from-top mb-0">Read More</h5>
-        </figcaption>
-      </figure>
-      <div class="card-body">
-        <div class="post-header">
-          <div class="post-category text-line">
-            <a href="#" class="hover" rel="category">Coding</a>
-          </div>
-          <!-- /.post-category -->
-          <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="./blog-post.html">`+data["title"][0]["t"]+`</a></h2>
-        </div>
-        <!-- /.post-header -->
-        <div class="post-content">
-          <p>`+data["artikel"][0]["a"]+`</p>
-        </div>
-        <!-- /.post-content -->
-      </div>
-      <!--/.card-body -->
-      <div class="card-footer">
-        <ul class="post-meta d-flex mb-0">
-          <li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2021</span></li>
-          <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>4</a></li>
-          <li class="post-likes ms-auto"><a href="#"><i class="uil uil-heart-alt"></i>5</a></li>
-        </ul>
-        <!-- /.post-meta -->
-      </div>
-      <!-- /.card-footer -->
-    </div>
-    <!-- /.card -->
-  </article>
-  <!-- /article -->
-</div>
-<!-- /.item-inner -->`);
-  $("#a2").append(`
-<div class="item-inner">
-  <article>
-    <div class="card">
-      <figure class="card-img-top overlay overlay1 hover-scale"><a href="#"> <img src="img/akbar.jpg" alt="" /></a>
-        <figcaption>
-          <h5 class="from-top mb-0">Read More</h5>
-        </figcaption>
-      </figure>
-      <div class="card-body">
-        <div class="post-header">
-          <div class="post-category text-line">
-            <a href="#" class="hover" rel="category">Workspace</a>
-          </div>
-          <!-- /.post-category -->
-          <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="./blog-post.html">`+data["title"][1]["t"]+`</a></h2>
-        </div>
-        <!-- /.post-header -->
-        <div class="post-content">
-            <p>`+data["artikel"][1]["a"]+`</p>
-        </div>
-        <!-- /.post-content -->
-      </div>
-      <!--/.card-body -->
-      <div class="card-footer">
-        <ul class="post-meta d-flex mb-0">
-          <li class="post-date"><i class="uil uil-calendar-alt"></i><span>29 Mar 2021</span></li>
-          <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>3</a></li>
-          <li class="post-likes ms-auto"><a href="#"><i class="uil uil-heart-alt"></i>3</a></li>
-        </ul>
-        <!-- /.post-meta -->
-      </div>
-      <!-- /.card-footer -->
-    </div>
-    <!-- /.card -->
-  </article>
-  <!-- /article -->
-</div>
-<!-- /.item-inner -->`);
-  $("#a3").append(`
-<div class="item-inner">
-  <article>
-    <div class="card">
-      <figure class="card-img-top overlay overlay1 hover-scale"><a href="#"> <img src="/img/akbar.jpg" alt="" /></a>
-        <figcaption>
-          <h5 class="from-top mb-0">Read More</h5>
-        </figcaption>
-      </figure>
-      <div class="card-body">
-        <div class="post-header">
-          <div class="post-category text-line">
-            <a href="#" class="hover" rel="category">Meeting</a>
-          </div>
-          <!-- /.post-category -->
-          <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="./blog-post.html">`+data["title"][2]["t"]+`</a></h2>
-        </div>
-        <!-- /.post-header -->
-        <div class="post-content">
-            <p>`+data["artikel"][2]["a"]+`</p>
-        </div>
-        <!-- /.post-content -->
-      </div>
-      <!--/.card-body -->
-      <div class="card-footer">
-        <ul class="post-meta d-flex mb-0">
-          <li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Feb 2021</span></li>
-          <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>6</a></li>
-          <li class="post-likes ms-auto"><a href="#"><i class="uil uil-heart-alt"></i>3</a></li>
-        </ul>
-        <!-- /.post-meta -->
-      </div>
-      <!-- /.card-footer -->
-    </div>
-    <!-- /.card -->
-  </article>
-  <!-- /article -->
-</div>
-<!-- /.item-inner -->`);
+    $("#tombol-input").click(function() {
+        // Mengambil nilai inputan pengguna
+        var userInput = parseInt($("#userInput").val());
+        console.log(userInput);
+        // Memeriksa apakah input lebih dari lima
+        if (userInput < data.x) {
+          $('#alertku').html(`<div class="alert alert-warning" role="alert">`+data.kurang+`</div>`)
+        } else if (userInput >= data.x && userInput < data.y) {
+          $('#alertku').html(`<div class="alert alert-info" role="alert">`+data.pas+`</div>`)
+        } else {
+          $('#alertku').html(`<div class="alert alert-success" role="alert">`+data.lebih+`</div>`)
+        }
+    });
+});
 
+
+  // artiekl
+  $('#artikel').append(`<div class="col-lg-4">
+  <div class="card">
+    <img class="card-img-top mb-2" src="public/images/card1.jpg" alt="card img" />
+    <div class="card-body">
+      <div class="artikel-genre rounded-5 bg-opacity-25 d-inline py-1 px-4">kesehatan</div>
+      <span class="artikel-tanggal"> 8 Jan 2023 </span>
+
+      <h4 class="card-title mt-3">`+data["title"][0]["t"]+`</h4>
+      <!-- Button trigger modal -->
+      <button type="button" class="tombol-artikel" data-bs-toggle="modal" data-bs-target="#artikel-1">
+        <p class="card-text">
+          Selengkapnya
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+            <circle cx="11" cy="11" r="11" fill="#688BFE" />
+            <path
+              d="M7 10.5C6.72386 10.5 6.5 10.7239 6.5 11C6.5 11.2761 6.72386 11.5 7 11.5L7 10.5ZM14.3536 11.3536C14.5488 11.1583 14.5488 10.8417 14.3536 10.6464L11.1716 7.46447C10.9763 7.2692 10.6597 7.2692 10.4645 7.46447C10.2692 7.65973 10.2692 7.97631 10.4645 8.17157L13.2929 11L10.4645 13.8284C10.2692 14.0237 10.2692 14.3403 10.4645 14.5355C10.6597 14.7308 10.9763 14.7308 11.1716 14.5355L14.3536 11.3536ZM7 11.5H14V10.5H7L7 11.5Z"
+              fill="white"
+            />
+          </svg>
+        </p>
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="artikel-1" tabindex="-1" aria-labelledby="artikelku-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="artikelku-1">`+data["title"][0]["t"]+`</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">`+data["artikel"][0]["a"]+`</div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>`);
+  $('#artikel').append(`<div class="col-lg-4">
+  <div class="card">
+    <img class="card-img-top mb-2" src="public/images/card1.jpg" alt="card img" />
+    <div class="card-body">
+      <div class="artikel-genre rounded-5 bg-opacity-25 d-inline py-1 px-4">kesehatan</div>
+      <span class="artikel-tanggal"> 8 Jan 2023 </span>
+
+      <h4 class="card-title mt-3">`+data["title"][1]["t"]+`</h4>
+      <!-- Button trigger modal -->
+      <button type="button" class="tombol-artikel" data-bs-toggle="modal" data-bs-target="#artikel-2">
+        <p class="card-text">
+          Selengkapnya
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+            <circle cx="11" cy="11" r="11" fill="#688BFE" />
+            <path
+              d="M7 10.5C6.72386 10.5 6.5 10.7239 6.5 11C6.5 11.2761 6.72386 11.5 7 11.5L7 10.5ZM14.3536 11.3536C14.5488 11.1583 14.5488 10.8417 14.3536 10.6464L11.1716 7.46447C10.9763 7.2692 10.6597 7.2692 10.4645 7.46447C10.2692 7.65973 10.2692 7.97631 10.4645 8.17157L13.2929 11L10.4645 13.8284C10.2692 14.0237 10.2692 14.3403 10.4645 14.5355C10.6597 14.7308 10.9763 14.7308 11.1716 14.5355L14.3536 11.3536ZM7 11.5H14V10.5H7L7 11.5Z"
+              fill="white"
+            />
+          </svg>
+        </p>
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="artikel-2" tabindex="-1" aria-labelledby="artikelku-2" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="artikelku-2">`+data["title"][1]["t"]+`</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">`+data["artikel"][1]["a"]+`</div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>`);
+  $('#artikel').append(`<div class="col-lg-4">
+  <div class="card">
+    <img class="card-img-top mb-2" src="public/images/card1.jpg" alt="card img" />
+    <div class="card-body">
+      <div class="artikel-genre rounded-5 bg-opacity-25 d-inline py-1 px-4">kesehatan</div>
+      <span class="artikel-tanggal"> 8 Jan 2023 </span>
+
+      <h4 class="card-title mt-3">`+data["title"][2]["t"]+`</h4>
+      <!-- Button trigger modal -->
+      <button type="button" class="tombol-artikel" data-bs-toggle="modal" data-bs-target="#artikel-3">
+        <p class="card-text">
+          Selengkapnya
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+            <circle cx="11" cy="11" r="11" fill="#688BFE" />
+            <path
+              d="M7 10.5C6.72386 10.5 6.5 10.7239 6.5 11C6.5 11.2761 6.72386 11.5 7 11.5L7 10.5ZM14.3536 11.3536C14.5488 11.1583 14.5488 10.8417 14.3536 10.6464L11.1716 7.46447C10.9763 7.2692 10.6597 7.2692 10.4645 7.46447C10.2692 7.65973 10.2692 7.97631 10.4645 8.17157L13.2929 11L10.4645 13.8284C10.2692 14.0237 10.2692 14.3403 10.4645 14.5355C10.6597 14.7308 10.9763 14.7308 11.1716 14.5355L14.3536 11.3536ZM7 11.5H14V10.5H7L7 11.5Z"
+              fill="white"
+            />
+          </svg>
+        </p>
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="artikel-3" tabindex="-1" aria-labelledby="artikelku-3" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="artikelku-3">`+data["title"][2]["t"]+`</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">`+data["artikel"][2]["a"]+`</div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>`);
+
+// faq
+$('#faq-1').append(`
+<!-- item -->
+<div class="col-lg-6 mb-2">
+<div class="tab">
+  <input id="tab-1" type="checkbox" />
+  <label class="bg-faq4 judul-table p-3" for="tab-1">
+    <p>`+data["faq"][0]["t"]+`</p>
+  </label>
+
+  <div class="bg-faq4 content p-3">
+    <p>`+data["faq"][0]["a"]+`</p>
+  </div>
+</div>
+</div>
+<!-- end item -->
+<!-- item -->
+<div class="col-lg-6 mb-2">
+<div class="tab">
+  <input id="tab-2" type="checkbox" />
+  <label class="bg-faq4 judul-table p-3" for="tab-2">
+    <p>`+data["faq"][1]["t"]+`</p>
+  </label>
+
+  <div class="bg-faq4 content p-3">
+    <p>`+data["faq"][1]["a"]+`</p>
+  </div>
+</div>
+</div>
+<!-- end item -->
+<!-- item -->
+<div class="col-lg-6 mb-2">
+<div class="tab">
+  <input id="tab-3" type="checkbox" />
+  <label class="bg-faq4 judul-table p-3" for="tab-3">
+    <p>`+data["faq"][2]["t"]+`</p>
+  </label>
+
+  <div class="bg-faq4 content p-3">
+    <p>`+data["faq"][2]["a"]+`</p>
+  </div>
+</div>
+</div>
+<!-- end item -->
+<!-- item -->
+<div class="col-lg-6 mb-2">
+<div class="tab">
+  <input id="tab-4" type="checkbox" />
+  <label class="bg-faq4 judul-table p-3" for="tab-4">
+    <p>`+data["faq"][3]["t"]+`</p>
+  </label>
+
+  <div class="bg-faq4 content p-3">
+    <p>`+data["faq"][3]["a"]+`</p>
+  </div>
+</div>
+</div>
+<!-- end item -->
+<!-- item -->
+<div class="col-lg-6 mb-2">
+<div class="tab">
+  <input id="tab-5" type="checkbox" />
+  <label class="bg-faq4 judul-table p-3" for="tab-5">
+    <p>`+data["faq"][4]["t"]+`</p>
+  </label>
+
+  <div class="bg-faq4 content p-3">
+    <p>`+data["faq"][4]["a"]+`</p>
+  </div>
+</div>
+</div>
+<!-- end item -->
+`)
+
+  // eksekusi file
+  const main = document.getElementById('main');
+  // logika penyesuaian waktu
+  if (currentHour >= 4 && currentHour < 5) {
+    fetch('/index.html').then(snap => snap.text()).then(result => {
+      main.innerHTML = result
+    })
+  } else if (currentHour >= 5 && currentHour < 6) {
+    fetch('/index2.html').then(snap => snap.text()).then(result => {
+      main.innerHTML = result
+    })
+  } else if (currentHour >= 6 && currentHour < 7) {
+    fetch('/index3.html').then(snap => snap.text()).then(result => {
+      main.innerHTML = result
+    })
+  } else if (currentHour >= 7 && currentHour < 11) {
+    fetch('/index4.html').then(snap => snap.text()).then(result => {
+      main.innerHTML = result
+    })
+  } else if (currentHour >= 11 && currentHour < 13) {
+    fetch('/index5.html').then(snap => snap.text()).then(result => {
+      main.innerHTML = result
+    })
+  } else if (currentHour >= 13 && currentHour < 16) {
+    fetch('/index6.html').then(snap => snap.text()).then(result => {
+      main.innerHTML = result
+    })
+  } else if (currentHour >= 16 && currentHour < 17) {
+    fetch('/index7.html').then(snap => snap.text()).then(result => {
+      main.innerHTML = result
+    })
+  } else if (currentHour >= 17 && currentHour < 20) {
+    fetch('/index8.html').then(snap => snap.text()).then(result => {
+      main.innerHTML = result
+    })
+  } else if (currentHour >= 20 && currentHour < 23) {
+    fetch('/index9.html').then(snap => snap.text()).then(result => {
+      main.innerHTML = result
+    })
+  } else if (currentHour >= 23 && currentHour < 4) {
+    fetch('/index10.html').then(snap => snap.text()).then(result => {
+      main.innerHTML = result
+    })
+  } else {
+    fetch('/index11.html').then(snap => snap.text()).then(result => {
+      main.innerHTML = result
+    })
+  }
 });
 
 // function add second

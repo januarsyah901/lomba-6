@@ -28,12 +28,15 @@
     ],
     "artikel": [
       {
+        "g": "card1.jpg",
         "a": "Ketika Anda bangun tidur, tubuh mengalami beberapa perubahan. Sistem saraf pusat mengirim sinyal untuk menghentikan produksi hormon melatonin yang membuat Anda mengantuk. Pernapasan dan detak jantung meningkat, memberikan lebih banyak oksigen ke seluruh tubuh. Aliran darah dan sirkulasi meningkatkan pasokan nutrisi dan oksigen ke otak dan otot. Pencernaan juga mulai berfungsi lagi setelah beristirahat semalaman. Selain itu, kulit juga bisa terasa lebih kering karena kehilangan kelembapan saat tidur."
       },
       {
+        "g": "card2.jpg",
         "a": "Salah satu faktor penyebabnya adalah tidur dalam posisi yang tidak ergonomis atau buruk dapat menyebabkan pegal saat bangun tidur. Yang kedua tidur yang membebani area tubuh tertentu, seperti leher, punggung, atau bahu, dapat menyebabkan ketegangan otot. Kurang tidur atau tidur yang tidak berkualitas dapat membuat tubuh Anda merasa pegal dan lelah saat bangun tidur."
       },
       {
+        "g": "card3.jpg",
         "a": "Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
       }
     ],
@@ -129,7 +132,7 @@
     "pertanyaan": "Push-up berapa kali pagi ini?",
     "x": 4,
     "y": 7,
-    "kurang": "Mungkin kamu bisa mencobanya besok",
+    "kurang": "Tetep semangat yaa",
     "pas": "Wah, bisa dong besok ditingkatin!",
     "lebih": "Waduhhh, calon binaragawan sih ini"
   },
