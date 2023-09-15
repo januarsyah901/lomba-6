@@ -28,15 +28,15 @@
     ],
     "artikel": [
       {
-        "g": "card1.jpg",
+        "g": "uy5t-CJuIK4",
         "a": "Ketika Anda bangun tidur, tubuh mengalami beberapa perubahan. Sistem saraf pusat mengirim sinyal untuk menghentikan produksi hormon melatonin yang membuat Anda mengantuk. Pernapasan dan detak jantung meningkat, memberikan lebih banyak oksigen ke seluruh tubuh. Aliran darah dan sirkulasi meningkatkan pasokan nutrisi dan oksigen ke otak dan otot. Pencernaan juga mulai berfungsi lagi setelah beristirahat semalaman. Selain itu, kulit juga bisa terasa lebih kering karena kehilangan kelembapan saat tidur."
       },
       {
-        "g": "card2.jpg",
+        "g": "mSXMHkgRs8s",
         "a": "Salah satu faktor penyebabnya adalah tidur dalam posisi yang tidak ergonomis atau buruk dapat menyebabkan pegal saat bangun tidur. Yang kedua tidur yang membebani area tubuh tertentu, seperti leher, punggung, atau bahu, dapat menyebabkan ketegangan otot. Kurang tidur atau tidur yang tidak berkualitas dapat membuat tubuh Anda merasa pegal dan lelah saat bangun tidur."
       },
       {
-        "g": "card3.jpg",
+        "g": "FatEKQONutM",
         "a": "Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
       }
     ],
@@ -65,6 +65,17 @@
     "pertanyaan": "Tidur berapa jam kemarin?",
     "x": 7,
     "y": 10,
+    "warna": [
+      {
+        "a" : "blog-judul1 rounded-5 bg-opacity-25 d-inline py-1 px-4"
+      },
+      {
+        "a" : "faq-judul1"
+      },
+      {
+        "a" : "bg-faq1"
+      }
+    ],
     "kurang": "Loh, kok bentar banget tidurnya, ngapain aja, ntar kalo sakit gimana?",
     "pas": "Nahh gitu dong, tidur tepat waktu lagi ya!",
     "lebih": "Kamu kecapean ya. :("
@@ -98,12 +109,15 @@
     ],
     "artikel": [
       {
+        "g": "uy5t-CJuIK4",
         "a": "Ketika Anda bangun tidur, tubuh mengalami beberapa perubahan. Sistem saraf pusat mengirim sinyal untuk menghentikan produksi hormon melatonin yang membuat Anda mengantuk. Pernapasan dan detak jantung meningkat, memberikan lebih banyak oksigen ke seluruh tubuh. Aliran darah dan sirkulasi meningkatkan pasokan nutrisi dan oksigen ke otak dan otot. Pencernaan juga mulai berfungsi lagi setelah beristirahat semalaman. Selain itu, kulit juga bisa terasa lebih kering karena kehilangan kelembapan saat tidur."
       },
       {
+        "g": "mSXMHkgRs8s",
         "a": "Salah satu faktor penyebabnya adalah tidur dalam posisi yang tidak ergonomis atau buruk dapat menyebabkan pegal saat bangun tidur. Yang kedua tidur yang membebani area tubuh tertentu, seperti leher, punggung, atau bahu, dapat menyebabkan ketegangan otot. Kurang tidur atau tidur yang tidak berkualitas dapat membuat tubuh Anda merasa pegal dan lelah saat bangun tidur."
       },
       {
+        "g": "FatEKQONutM",
         "a": "Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
       }
     ],
@@ -132,6 +146,17 @@
     "pertanyaan": "Push-up berapa kali pagi ini?",
     "x": 4,
     "y": 7,
+    "warna": [
+      {
+        "a" : "blog-judul2 rounded-5 bg-opacity-25 d-inline py-1 px-4"
+      },
+      {
+        "a" : "faq-judul2"
+      },
+      {
+        "a" : "bg-faq2"
+      }
+    ],
     "kurang": "Tetep semangat yaa",
     "pas": "Wah, bisa dong besok ditingkatin!",
     "lebih": "Waduhhh, calon binaragawan sih ini"
@@ -154,12 +179,15 @@
     ],    
     "artikel": [
       {
+        "g": "uy5t-CJuIK4",
         "a": "Ketika Anda bangun tidur, tubuh mengalami beberapa perubahan. Sistem saraf pusat mengirim sinyal untuk menghentikan produksi hormon melatonin yang membuat Anda mengantuk. Pernapasan dan detak jantung meningkat, memberikan lebih banyak oksigen ke seluruh tubuh. Aliran darah dan sirkulasi meningkatkan pasokan nutrisi dan oksigen ke otak dan otot. Pencernaan juga mulai berfungsi lagi setelah beristirahat semalaman. Selain itu, kulit juga bisa terasa lebih kering karena kehilangan kelembapan saat tidur."
       },
       {
+        "g": "mSXMHkgRs8s",
         "a": "Salah satu faktor penyebabnya adalah tidur dalam posisi yang tidak ergonomis atau buruk dapat menyebabkan pegal saat bangun tidur. Yang kedua tidur yang membebani area tubuh tertentu, seperti leher, punggung, atau bahu, dapat menyebabkan ketegangan otot. Kurang tidur atau tidur yang tidak berkualitas dapat membuat tubuh Anda merasa pegal dan lelah saat bangun tidur."
       },
       {
+        "g": "FatEKQONutM",
         "a": "Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
       }
     ],
@@ -199,6 +227,17 @@
     "pertanyaan": "Diantara 1 sampai 10, seberapa siap kah kamu untuk memulai hari?",
     "x": 4,
     "y": 7,
+    "warna": [
+      {
+        "a" : "blog-judul3 rounded-5 bg-opacity-25 d-inline py-1 px-4"
+      },
+      {
+        "a" : "faq-judul3"
+      },
+      {
+        "a" : "bg-faq3 text-dark"
+      }
+    ],
     "kurang": "Waduh kok kurang siap hari ini?",
     "pas": "Tamabah siap lagi yaa!",
     "lebih": "Kalo ini sih pasti cerah harinya"
@@ -221,12 +260,15 @@
     ],
     "artikel": [
       {
+        "g": "uy5t-CJuIK4",
         "a": "Ketika Anda bangun tidur, tubuh mengalami beberapa perubahan. Sistem saraf pusat mengirim sinyal untuk menghentikan produksi hormon melatonin yang membuat Anda mengantuk. Pernapasan dan detak jantung meningkat, memberikan lebih banyak oksigen ke seluruh tubuh. Aliran darah dan sirkulasi meningkatkan pasokan nutrisi dan oksigen ke otak dan otot. Pencernaan juga mulai berfungsi lagi setelah beristirahat semalaman. Selain itu, kulit juga bisa terasa lebih kering karena kehilangan kelembapan saat tidur."
       },
       {
+        "g": "mSXMHkgRs8s",
         "a": "Salah satu faktor penyebabnya adalah tidur dalam posisi yang tidak ergonomis atau buruk dapat menyebabkan pegal saat bangun tidur. Yang kedua tidur yang membebani area tubuh tertentu, seperti leher, punggung, atau bahu, dapat menyebabkan ketegangan otot. Kurang tidur atau tidur yang tidak berkualitas dapat membuat tubuh Anda merasa pegal dan lelah saat bangun tidur."
       },
       {
+        "g": "FatEKQONutM",
         "a": "Tubuh memperbaiki dan meregenerasi jaringan, otot, dan sel-sel selama tidur. Hormon pertumbuhan juga dilepaskan, mendukung pertumbuhan dan perbaikan tubuh. Tidur membantu otak untuk bersantai, membersihkan racun, dan mempersiapkan diri untuk hari berikutnya. Selama tahap tidur REM, aktivitas otak meningkat, dan mungkin juga terjadi mimpi."
       }
     ],
@@ -266,6 +308,17 @@
     "pertanyaan": "Diantara 1 sampai 10, seberapa semangat kah kamu?",
     "x": 4,
     "y": 7,
+    "warna": [
+      {
+        "a" : "blog-judul4 rounded-5 bg-opacity-25 d-inline py-1 px-4"
+      },
+      {
+        "a" : "faq-judul4"
+      },
+      {
+        "a" : "bg-faq4"
+      }
+    ],
     "kurang": "Yang semangat dong!",
     "pas": "Tambah semangat lagi yaa!",
     "lebih": "Kalo ini sih pasti lancar jaya harinya"
@@ -288,12 +341,15 @@
     ], 
     "artikel": [
       {
+        "g":"4_jhDO54BYg",
         "a": "Kesehatan adalah aset yang tak ternilai, dan ada banyak langkah sederhana yang dapat Anda ambil untuk merawatnya. Mulai dari pola makan seimbang hingga menjaga keseimbangan mental, setiap langkah memiliki peran penting dalam menjaga kesejahteraan Anda.<br/>Tidak perlu melakukan perubahan drastis untuk meraih kesehatan yang optimal. Dengan mengonsumsi makanan bergizi, rutin bergerak, dan memberi tubuh waktu istirahat yang cukup, Anda memberi fondasi yang kuat untuk kesehatan yang baik. Aktivitas fisik sehari-hari, bahkan dalam bentuk sederhana seperti berjalan kaki, memiliki dampak besar pada kebugaran fisik dan mental Anda."
       },
       {
+        "g":"SYTO3xs06fU",
         "a": "Siang hari adalah saat yang sibuk, tetapi tetap ada langkah sederhana yang dapat Anda ambil untuk menjaga kesehatan Anda saat menjalani rutinitas. Cobalah untuk mengambil beberapa menit untuk berjemur di bawah sinar matahari, membantu tubuh memproduksi vitamin D yang penting. Pastikan Anda tidak melewatkan makan siang dan pilihlah makanan yang seimbang untuk memberikan energi yang diperlukan. Tetap terhidrasi dengan minum air putih secara teratur juga penting untuk menjaga keseimbangan cairan tubuh. Jika memungkinkan, luangkan waktu sebentar untuk melakukan peregangan ringan dan beristirahat sejenak. Ingatlah untuk tetap aktif, baik dengan berjalan-jalan singkat atau melakukan gerakan ringan. Hindari makanan cepat saji dan usahakan untuk menjaga pikiran Anda tetap positif. Dengan memperhatikan langkah-langkah sederhana ini, Anda dapat tetap merasa segar dan menjaga kesehatan Anda di tengah kesibukan siang hari"
       },
       {
+        "g":"WiZOyYqzUss",
         "a": "Polusi lingkungan telah menjadi sorotan utama dalam era modern ini, dengan dampaknya yang merugikan manusia dan planet kita. Polusi terjadi ketika zat-zat beracun atau tidak diinginkan mencemari lingkungan alam, termasuk udara, air, dan tanah. Dari emisi kendaraan bermotor hingga limbah industri, berbagai sumber polusi menyebabkan masalah serius bagi kesehatan manusia dan keberlanjutan lingkungan.<br/>Polusi udara dapat memicu gangguan pernapasan, penyakit kardiovaskular, dan bahkan berkontribusi pada kematian dini. Polusi air mengancam ekosistem air tawar dan laut, serta menyebabkan kontaminasi dalam sumber air minum. Polusi tanah mengurangi kesuburan dan mencegah pertumbuhan tumbuhan yang sehat."
       }
     ],
@@ -302,7 +358,7 @@
         "t": "langkah sederhana hidup sehat"
       },
       {
-        "t": "Menjaga Kesehatan di Siang Hari: Tips Sederhana yang Bermanfaat"
+        "t": "Menjaga Kesehatan di Siang yang sibuk: Tips Sederhana yang Bermanfaat"
       },
       {
         "t": "Memahami Polusi Lingkungan: Dampak dan Upaya Mengatasi"
@@ -333,6 +389,17 @@
     "pertanyaan": "Diantara 1 sampai 10, seberapa semangat kah kamu?",
     "x": 4,
     "y": 7,
+    "warna": [
+      {
+        "a" : "blog-judul5 rounded-5 bg-opacity-25 d-inline py-1 px-4"
+      },
+      {
+        "a" : "faq-judul5"
+      },
+      {
+        "a" : "bg-faq5"
+      }
+    ],
     "kurang": "Yang semangat dong!",
     "pas": "Tambah semangat lagi yaa!",
     "lebih": "Kalo ini sih pasti lancar jaya harinya"
@@ -355,12 +422,15 @@
     ],  
     "artikel": [
       {
+        "g":"4_jhDO54BYg",
         "a": "Kesehatan adalah aset yang tak ternilai, dan ada banyak langkah sederhana yang dapat Anda ambil untuk merawatnya. Mulai dari pola makan seimbang hingga menjaga keseimbangan mental, setiap langkah memiliki peran penting dalam menjaga kesejahteraan Anda.<br/>Tidak perlu melakukan perubahan drastis untuk meraih kesehatan yang optimal. Dengan mengonsumsi makanan bergizi, rutin bergerak, dan memberi tubuh waktu istirahat yang cukup, Anda memberi fondasi yang kuat untuk kesehatan yang baik. Aktivitas fisik sehari-hari, bahkan dalam bentuk sederhana seperti berjalan kaki, memiliki dampak besar pada kebugaran fisik dan mental Anda."
       },
       {
+        "g":"SYTO3xs06fU",
         "a": "Siang hari adalah saat yang sibuk, tetapi tetap ada langkah sederhana yang dapat Anda ambil untuk menjaga kesehatan Anda saat menjalani rutinitas. Cobalah untuk mengambil beberapa menit untuk berjemur di bawah sinar matahari, membantu tubuh memproduksi vitamin D yang penting. Pastikan Anda tidak melewatkan makan siang dan pilihlah makanan yang seimbang untuk memberikan energi yang diperlukan. Tetap terhidrasi dengan minum air putih secara teratur juga penting untuk menjaga keseimbangan cairan tubuh. Jika memungkinkan, luangkan waktu sebentar untuk melakukan peregangan ringan dan beristirahat sejenak. Ingatlah untuk tetap aktif, baik dengan berjalan-jalan singkat atau melakukan gerakan ringan. Hindari makanan cepat saji dan usahakan untuk menjaga pikiran Anda tetap positif. Dengan memperhatikan langkah-langkah sederhana ini, Anda dapat tetap merasa segar dan menjaga kesehatan Anda di tengah kesibukan siang hari"
       },
       {
+        "g":"WiZOyYqzUss",
         "a": "Polusi lingkungan telah menjadi sorotan utama dalam era modern ini, dengan dampaknya yang merugikan manusia dan planet kita. Polusi terjadi ketika zat-zat beracun atau tidak diinginkan mencemari lingkungan alam, termasuk udara, air, dan tanah. Dari emisi kendaraan bermotor hingga limbah industri, berbagai sumber polusi menyebabkan masalah serius bagi kesehatan manusia dan keberlanjutan lingkungan.<br/>Polusi udara dapat memicu gangguan pernapasan, penyakit kardiovaskular, dan bahkan berkontribusi pada kematian dini. Polusi air mengancam ekosistem air tawar dan laut, serta menyebabkan kontaminasi dalam sumber air minum. Polusi tanah mengurangi kesuburan dan mencegah pertumbuhan tumbuhan yang sehat."
       }
     ],
@@ -400,6 +470,17 @@
     "pertanyaan": "Diantara 1 sampai 10, seberapa semangat kah kamu?",
     "x": 4,
     "y": 7,
+    "warna": [
+      {
+        "a" : "blog-judul6 rounded-5 bg-opacity-25 d-inline py-1 px-4"
+      },
+      {
+        "a" : "faq-judul6"
+      },
+      {
+        "a" : "bg-faq6"
+      }
+    ],
     "kurang": "Yang semangat dong!",
     "pas": "Tamabah semangat lagi yaa!",
     "lebih": "Kalo ini sih pasti lancar jaya harinya"
@@ -422,12 +503,15 @@
     ],
     "artikel": [
       {
+        "g":"4_jhDO54BYg",
         "a": "Kesehatan adalah aset yang tak ternilai, dan ada banyak langkah sederhana yang dapat Anda ambil untuk merawatnya. Mulai dari pola makan seimbang hingga menjaga keseimbangan mental, setiap langkah memiliki peran penting dalam menjaga kesejahteraan Anda.<br/>Tidak perlu melakukan perubahan drastis untuk meraih kesehatan yang optimal. Dengan mengonsumsi makanan bergizi, rutin bergerak, dan memberi tubuh waktu istirahat yang cukup, Anda memberi fondasi yang kuat untuk kesehatan yang baik. Aktivitas fisik sehari-hari, bahkan dalam bentuk sederhana seperti berjalan kaki, memiliki dampak besar pada kebugaran fisik dan mental Anda."
       },
       {
+        "g":"SYTO3xs06fU",
         "a": "Siang hari adalah saat yang sibuk, tetapi tetap ada langkah sederhana yang dapat Anda ambil untuk menjaga kesehatan Anda saat menjalani rutinitas. Cobalah untuk mengambil beberapa menit untuk berjemur di bawah sinar matahari, membantu tubuh memproduksi vitamin D yang penting. Pastikan Anda tidak melewatkan makan siang dan pilihlah makanan yang seimbang untuk memberikan energi yang diperlukan. Tetap terhidrasi dengan minum air putih secara teratur juga penting untuk menjaga keseimbangan cairan tubuh. Jika memungkinkan, luangkan waktu sebentar untuk melakukan peregangan ringan dan beristirahat sejenak. Ingatlah untuk tetap aktif, baik dengan berjalan-jalan singkat atau melakukan gerakan ringan. Hindari makanan cepat saji dan usahakan untuk menjaga pikiran Anda tetap positif. Dengan memperhatikan langkah-langkah sederhana ini, Anda dapat tetap merasa segar dan menjaga kesehatan Anda di tengah kesibukan siang hari"
       },
       {
+        "g":"WiZOyYqzUss",
         "a": "Polusi lingkungan telah menjadi sorotan utama dalam era modern ini, dengan dampaknya yang merugikan manusia dan planet kita. Polusi terjadi ketika zat-zat beracun atau tidak diinginkan mencemari lingkungan alam, termasuk udara, air, dan tanah. Dari emisi kendaraan bermotor hingga limbah industri, berbagai sumber polusi menyebabkan masalah serius bagi kesehatan manusia dan keberlanjutan lingkungan.<br/>Polusi udara dapat memicu gangguan pernapasan, penyakit kardiovaskular, dan bahkan berkontribusi pada kematian dini. Polusi air mengancam ekosistem air tawar dan laut, serta menyebabkan kontaminasi dalam sumber air minum. Polusi tanah mengurangi kesuburan dan mencegah pertumbuhan tumbuhan yang sehat."
       }
     ],
@@ -467,6 +551,17 @@
     "pertanyaan": "Kamu kerja berapa jam sehari?",
     "x": 6,
     "y": 8,
+    "warna": [
+      {
+        "a" : "blog-judul7 rounded-5 bg-opacity-25 d-inline py-1 px-4"
+      },
+      {
+        "a" : "faq-judul7"
+      },
+      {
+        "a" : "bg-faq7"
+      }
+    ],
     "kurang": "Wah lumayan cepet juga ya waktu kerjamu",
     "pas": "Semangat terus kerjanyaaa!",
     "lebih": "Aduhh, lama banget, tapi tetep semangat ya kerjanya!"
@@ -489,12 +584,15 @@
     ],  
     "artikel": [
       {
+        "g":"4_jhDO54BYg",
         "a": "Kesehatan adalah aset yang tak ternilai, dan ada banyak langkah sederhana yang dapat Anda ambil untuk merawatnya. Mulai dari pola makan seimbang hingga menjaga keseimbangan mental, setiap langkah memiliki peran penting dalam menjaga kesejahteraan Anda.<br/>Tidak perlu melakukan perubahan drastis untuk meraih kesehatan yang optimal. Dengan mengonsumsi makanan bergizi, rutin bergerak, dan memberi tubuh waktu istirahat yang cukup, Anda memberi fondasi yang kuat untuk kesehatan yang baik. Aktivitas fisik sehari-hari, bahkan dalam bentuk sederhana seperti berjalan kaki, memiliki dampak besar pada kebugaran fisik dan mental Anda."
       },
       {
-        "a": "Siang hari tadi adalah saat yang sibuk, tetapi tetap ada langkah sederhana yang dapat Anda ambil untuk menjaga kesehatan Anda saat menjalani rutinitas. Cobalah untuk mengambil beberapa menit untuk berjemur di bawah sinar matahari, membantu tubuh memproduksi vitamin D yang penting. Pastikan Anda tidak melewatkan makan siang dan pilihlah makanan yang seimbang untuk memberikan energi yang diperlukan. Tetap terhidrasi dengan minum air putih secara teratur juga penting untuk menjaga keseimbangan cairan tubuh. Jika memungkinkan, luangkan waktu sebentar untuk melakukan peregangan ringan dan beristirahat sejenak. Ingatlah untuk tetap aktif, baik dengan berjalan-jalan singkat atau melakukan gerakan ringan. Hindari makanan cepat saji dan usahakan untuk menjaga pikiran Anda tetap positif. Dengan memperhatikan langkah-langkah sederhana ini, Anda dapat tetap merasa segar dan menjaga kesehatan Anda di tengah kesibukan siang hari"
+        "g":"SYTO3xs06fU",
+        "a": "Siang hari adalah saat yang sibuk, tetapi tetap ada langkah sederhana yang dapat Anda ambil untuk menjaga kesehatan Anda saat menjalani rutinitas. Cobalah untuk mengambil beberapa menit untuk berjemur di bawah sinar matahari, membantu tubuh memproduksi vitamin D yang penting. Pastikan Anda tidak melewatkan makan siang dan pilihlah makanan yang seimbang untuk memberikan energi yang diperlukan. Tetap terhidrasi dengan minum air putih secara teratur juga penting untuk menjaga keseimbangan cairan tubuh. Jika memungkinkan, luangkan waktu sebentar untuk melakukan peregangan ringan dan beristirahat sejenak. Ingatlah untuk tetap aktif, baik dengan berjalan-jalan singkat atau melakukan gerakan ringan. Hindari makanan cepat saji dan usahakan untuk menjaga pikiran Anda tetap positif. Dengan memperhatikan langkah-langkah sederhana ini, Anda dapat tetap merasa segar dan menjaga kesehatan Anda di tengah kesibukan siang hari"
       },
       {
+        "g":"WiZOyYqzUss",
         "a": "Polusi lingkungan telah menjadi sorotan utama dalam era modern ini, dengan dampaknya yang merugikan manusia dan planet kita. Polusi terjadi ketika zat-zat beracun atau tidak diinginkan mencemari lingkungan alam, termasuk udara, air, dan tanah. Dari emisi kendaraan bermotor hingga limbah industri, berbagai sumber polusi menyebabkan masalah serius bagi kesehatan manusia dan keberlanjutan lingkungan.<br/>Polusi udara dapat memicu gangguan pernapasan, penyakit kardiovaskular, dan bahkan berkontribusi pada kematian dini. Polusi air mengancam ekosistem air tawar dan laut, serta menyebabkan kontaminasi dalam sumber air minum. Polusi tanah mengurangi kesuburan dan mencegah pertumbuhan tumbuhan yang sehat."
       }
     ],
@@ -556,13 +654,16 @@
     ],
     "artikel": [
       {
-        "a": "Kesehatan adalah aset yang tak ternilai, dan ada banyak langkah sederhana yang dapat Anda ambil untuk merawatnya. Mulai dari pola makan seimbang hingga menjaga keseimbangan mental, setiap langkah memiliki peran penting dalam menjaga kesejahteraan Anda.<br/>Tidak perlu melakukan perubahan drastis untuk meraih kesehatan yang optimal. Dengan mengonsumsi makanan bergizi, rutin bergerak, dan memberi tubuh waktu istirahat yang cukup, Anda memberi fondasi yang kuat untuk kesehatan yang baik. Aktivitas fisik sehari-hari, bahkan dalam bentuk sederhana seperti berjalan kaki, memiliki dampak besar pada kebugaran fisik dan mental Anda."
+        "g" : "CeWNEEsHPbA",
+        "a": "Tidur adalah keadaan alami di mana tubuh dan otak manusia beristirahat dan pulih. Ini adalah proses biologis penting yang diperlukan untuk menjaga kesehatan fisik, mental, dan emosional. Selama tidur, tubuh Anda mengalami serangkaian perubahan fisiologis yang membantu memulihkan diri dan mempersiapkan Anda untuk hari berikutnya.<br>Tidur melibatkan berbagai tahapan siklus tidur yang terjadi berulang-ulang selama malam. Ada dua tipe utama tidur: tidur Non-REM (Rapid Eye Movement) dan tidur REM. Tidur Non-REM dibagi menjadi beberapa tahap, mulai dari tidur ringan hingga tidur yang lebih dalam. Tidur REM adalah tahap di mana mimpi paling sering terjadi dan otak tampak sangat aktif.<br>Selama tidur, berbagai proses penting terjadi di dalam tubuh Anda. Ini termasuk pemulihan otot dan jaringan, konsolidasi memori, penyeimbangan hormon, pemulihan sistem kekebalan tubuh, serta perbaikan dan pertumbuhan sel-sel tubuh. Tidur juga penting untuk menjaga keseimbangan kimia otak, regulasi suhu tubuh, dan fungsi sistem kardiovaskular.<br>Penting untuk mendapatkan cukup tidur yang berkualitas setiap malam agar tubuh Anda bisa berfungsi dengan baik. Kurang tidur atau tidur yang tidak berkualitas dapat menyebabkan masalah kesehatan seperti kelelahan, gangguan mood, gangguan kognitif, serta meningkatkan risiko penyakit kronis. Oleh karena itu, tidur yang cukup dan berkualitas merupakan aspek penting dalam menjaga kesehatan dan kesejahteraan secara keseluruhan."
       },
       {
-        "a": "Siang hari tadi adalah saat yang sibuk, tetapi tetap ada langkah sederhana yang dapat Anda ambil untuk menjaga kesehatan Anda saat menjalani rutinitas. Cobalah untuk mengambil beberapa menit untuk berjemur di bawah sinar matahari, membantu tubuh memproduksi vitamin D yang penting. Pastikan Anda tidak melewatkan makan siang dan pilihlah makanan yang seimbang untuk memberikan energi yang diperlukan. Tetap terhidrasi dengan minum air putih secara teratur juga penting untuk menjaga keseimbangan cairan tubuh. Jika memungkinkan, luangkan waktu sebentar untuk melakukan peregangan ringan dan beristirahat sejenak. Ingatlah untuk tetap aktif, baik dengan berjalan-jalan singkat atau melakukan gerakan ringan. Hindari makanan cepat saji dan usahakan untuk menjaga pikiran Anda tetap positif. Dengan memperhatikan langkah-langkah sederhana ini, Anda dapat tetap merasa segar dan menjaga kesehatan Anda di tengah kesibukan siang hari"
+        "g" : "58Z17lnVS4U",
+        "a": "Ketika Anda tidur, tubuh dan otak mengalami serangkaian proses penting untuk memulihkan dan mempersiapkan diri. Selama tidur, tubuh memperbaiki jaringan dan otot yang rusak, sambil mengonsolidasikan ingatan dan informasi yang telah dipelajari sepanjang hari. Proses pengaturan hormon juga terjadi, termasuk produksi hormon pertumbuhan dan pengatur hormon nafsu makan. Tidur yang cukup juga membantu meningkatkan sistem kekebalan tubuh dan membersihkan zat-zat berbahaya dari tubuh. Selain itu, tidur melibatkan siklus tidur Non-REM yang mencakup tahap tidur ringan dan mendalam, serta tahap tidur REM yang terkait dengan mimpi. Dengan tidur yang cukup dan berkualitas, tubuh Anda dapat pulih secara fisik dan mental, menjaga kesehatan serta kinerja secara keseluruhan."
       },
       {
-        "a": "Polusi lingkungan telah menjadi sorotan utama dalam era modern ini, dengan dampaknya yang merugikan manusia dan planet kita. Polusi terjadi ketika zat-zat beracun atau tidak diinginkan mencemari lingkungan alam, termasuk udara, air, dan tanah. Dari emisi kendaraan bermotor hingga limbah industri, berbagai sumber polusi menyebabkan masalah serius bagi kesehatan manusia dan keberlanjutan lingkungan.<br/>Polusi udara dapat memicu gangguan pernapasan, penyakit kardiovaskular, dan bahkan berkontribusi pada kematian dini. Polusi air mengancam ekosistem air tawar dan laut, serta menyebabkan kontaminasi dalam sumber air minum. Polusi tanah mengurangi kesuburan dan mencegah pertumbuhan tumbuhan yang sehat."
+        "g" : "zi1GRsLym3s",
+        "a": "Mimpi adalah pengalaman mental yang terjadi selama tidur, di mana pikiran menciptakan gambar, suara, dan sensasi yang kadang-kadang terasa sangat nyata. Meskipun tujuan dan fungsi pasti dari mimpi masih belum sepenuhnya dipahami, ada beberapa teori yang mengemukakan beberapa kemungkinan. Salah satunya adalah bahwa mimpi dapat membantu otak mengolah emosi dan pengalaman yang belum terselesaikan, sehingga membantu mengatasi stres atau kekhawatiran. Mimpi juga dapat berperan dalam pembelajaran dan pemrosesan informasi, serta mendorong kreativitas dan pemecahan masalah. Beberapa orang melaporkan bahwa mimpi mengandung rekaman pengalaman sehari-hari yang mereka alami, dan ini dapat membantu otak menyusun informasi dalam bentuk yang lebih bermakna. Meskipun masih ada banyak misteri di balik fenomena mimpi, mereka tetap menjadi subjek penelitian yang menarik dan kompleks dalam kaitannya dengan aktivitas tidur dan pikiran manusia."
       }
     ],
     "title": [
@@ -623,12 +724,15 @@
     ],
     "artikel": [
       {
+        "g" : "CeWNEEsHPbA",
         "a": "Tidur adalah keadaan alami di mana tubuh dan otak manusia beristirahat dan pulih. Ini adalah proses biologis penting yang diperlukan untuk menjaga kesehatan fisik, mental, dan emosional. Selama tidur, tubuh Anda mengalami serangkaian perubahan fisiologis yang membantu memulihkan diri dan mempersiapkan Anda untuk hari berikutnya.<br>Tidur melibatkan berbagai tahapan siklus tidur yang terjadi berulang-ulang selama malam. Ada dua tipe utama tidur: tidur Non-REM (Rapid Eye Movement) dan tidur REM. Tidur Non-REM dibagi menjadi beberapa tahap, mulai dari tidur ringan hingga tidur yang lebih dalam. Tidur REM adalah tahap di mana mimpi paling sering terjadi dan otak tampak sangat aktif.<br>Selama tidur, berbagai proses penting terjadi di dalam tubuh Anda. Ini termasuk pemulihan otot dan jaringan, konsolidasi memori, penyeimbangan hormon, pemulihan sistem kekebalan tubuh, serta perbaikan dan pertumbuhan sel-sel tubuh. Tidur juga penting untuk menjaga keseimbangan kimia otak, regulasi suhu tubuh, dan fungsi sistem kardiovaskular.<br>Penting untuk mendapatkan cukup tidur yang berkualitas setiap malam agar tubuh Anda bisa berfungsi dengan baik. Kurang tidur atau tidur yang tidak berkualitas dapat menyebabkan masalah kesehatan seperti kelelahan, gangguan mood, gangguan kognitif, serta meningkatkan risiko penyakit kronis. Oleh karena itu, tidur yang cukup dan berkualitas merupakan aspek penting dalam menjaga kesehatan dan kesejahteraan secara keseluruhan."
       },
       {
+        "g" : "58Z17lnVS4U",
         "a": "Ketika Anda tidur, tubuh dan otak mengalami serangkaian proses penting untuk memulihkan dan mempersiapkan diri. Selama tidur, tubuh memperbaiki jaringan dan otot yang rusak, sambil mengonsolidasikan ingatan dan informasi yang telah dipelajari sepanjang hari. Proses pengaturan hormon juga terjadi, termasuk produksi hormon pertumbuhan dan pengatur hormon nafsu makan. Tidur yang cukup juga membantu meningkatkan sistem kekebalan tubuh dan membersihkan zat-zat berbahaya dari tubuh. Selain itu, tidur melibatkan siklus tidur Non-REM yang mencakup tahap tidur ringan dan mendalam, serta tahap tidur REM yang terkait dengan mimpi. Dengan tidur yang cukup dan berkualitas, tubuh Anda dapat pulih secara fisik dan mental, menjaga kesehatan serta kinerja secara keseluruhan."
       },
       {
+        "g" : "zi1GRsLym3s",
         "a": "Mimpi adalah pengalaman mental yang terjadi selama tidur, di mana pikiran menciptakan gambar, suara, dan sensasi yang kadang-kadang terasa sangat nyata. Meskipun tujuan dan fungsi pasti dari mimpi masih belum sepenuhnya dipahami, ada beberapa teori yang mengemukakan beberapa kemungkinan. Salah satunya adalah bahwa mimpi dapat membantu otak mengolah emosi dan pengalaman yang belum terselesaikan, sehingga membantu mengatasi stres atau kekhawatiran. Mimpi juga dapat berperan dalam pembelajaran dan pemrosesan informasi, serta mendorong kreativitas dan pemecahan masalah. Beberapa orang melaporkan bahwa mimpi mengandung rekaman pengalaman sehari-hari yang mereka alami, dan ini dapat membantu otak menyusun informasi dalam bentuk yang lebih bermakna. Meskipun masih ada banyak misteri di balik fenomena mimpi, mereka tetap menjadi subjek penelitian yang menarik dan kompleks dalam kaitannya dengan aktivitas tidur dan pikiran manusia."
       }
     ],

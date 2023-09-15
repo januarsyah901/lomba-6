@@ -1,10 +1,23 @@
 $.getJSON("data/data.json", function (data) {
+  function time(){
+    var d = new Date();
+    var m = d.getMinutes();
+    var h = d.getHours();
+    var h2 = h;
+    h2 = h2 % 12;
+    $('#jamku').text(h2+" : "+m+(h>12?' PM':' AM'));
+    $('#jamku2').text(h2+" : "+m+(h>12?' PM':' AM'));
+    console.log(h)
+}
+
+setInterval(time,1000);
   // Mendapatkan waktu saat ini
   var currentTime = new Date();
 
+
   // Mendapatkan jam dari waktu saat ini
   // var currentHour = currentTime.getHours();
-  var currentHour = 5;
+  var currentHour = 7;
 
   // logika penyesuaian waktu
   if (currentHour >= 4 && currentHour < 5) {
@@ -52,10 +65,10 @@ $.getJSON("data/data.json", function (data) {
   // artiekl
   $('#artikel').append(`<div class="col-lg-4">
   <div class="card">
-    <img class="card-img-top mb-2" src="public/images/card1.jpg" alt="card img" />
+    <img class="card-img-top mb-2" src="https://source.unsplash.com/`+data["artikel"][0]["g"]+`/600x600" alt="card img" />
     <div class="card-body">
-      <div class="artikel-genre rounded-5 bg-opacity-25 d-inline py-1 px-4">kesehatan</div>
-      <span class="artikel-tanggal"> 8 Jan 2023 </span>
+      <div class="artikel-genre rounded-5 bg-opacity-25 d-inline py-1 px-4 ">kesehatan</div>
+      <span class="artikel-tanggal"> 11 nov 2023 </span>
 
       <h4 class="card-title mt-3">`+data["title"][0]["t"]+`</h4>
       <!-- Button trigger modal -->
@@ -92,10 +105,10 @@ $.getJSON("data/data.json", function (data) {
 </div>`);
   $('#artikel').append(`<div class="col-lg-4">
   <div class="card">
-    <img class="card-img-top mb-2" src="public/images/card1.jpg" alt="card img" />
+    <img class="card-img-top mb-2" src="https://source.unsplash.com/`+data["artikel"][1]["g"]+`/600x600" alt="card img" />
     <div class="card-body">
-      <div class="artikel-genre rounded-5 bg-opacity-25 d-inline py-1 px-4">kesehatan</div>
-      <span class="artikel-tanggal"> 8 Jan 2023 </span>
+      <div class="artikel-genre rounded-5 bg-opacity-25 d-inline py-1 px-4 bg-faq3">kesadaran</div>
+      <span class="artikel-tanggal"> 9 Jan 2023 </span>
 
       <h4 class="card-title mt-3">`+data["title"][1]["t"]+`</h4>
       <!-- Button trigger modal -->
@@ -132,10 +145,10 @@ $.getJSON("data/data.json", function (data) {
 </div>`);
   $('#artikel').append(`<div class="col-lg-4">
   <div class="card">
-    <img class="card-img-top mb-2" src="public/images/card1.jpg" alt="card img" />
+    <img class="card-img-top mb-2" src="https://source.unsplash.com/`+data["artikel"][2]["g"]+`/600x600" alt="card img" />
     <div class="card-body">
       <div class="artikel-genre rounded-5 bg-opacity-25 d-inline py-1 px-4">kesehatan</div>
-      <span class="artikel-tanggal"> 8 Jan 2023 </span>
+      <span class="artikel-tanggal"> 8 feb 2023 </span>
 
       <h4 class="card-title mt-3">`+data["title"][2]["t"]+`</h4>
       <!-- Button trigger modal -->
@@ -177,11 +190,11 @@ $('#faq-1').append(`
 <div class="col-lg-6 mb-2">
 <div class="tab">
   <input id="tab-1" type="checkbox" />
-  <label class="bg-faq4 judul-table p-3" for="tab-1">
+  <label class="`+data.warna[2]["a"]+` judul-table p-3" for="tab-1">
     <p>`+data["faq"][0]["t"]+`</p>
   </label>
 
-  <div class="bg-faq4 content p-3">
+  <div class="`+data.warna[2]["a"]+` content p-3">
     <p>`+data["faq"][0]["a"]+`</p>
   </div>
 </div>
@@ -191,11 +204,11 @@ $('#faq-1').append(`
 <div class="col-lg-6 mb-2">
 <div class="tab">
   <input id="tab-2" type="checkbox" />
-  <label class="bg-faq4 judul-table p-3" for="tab-2">
+  <label class="`+data.warna[2]["a"]+` judul-table p-3" for="tab-2">
     <p>`+data["faq"][1]["t"]+`</p>
   </label>
 
-  <div class="bg-faq4 content p-3">
+  <div class="`+data.warna[2]["a"]+` content p-3">
     <p>`+data["faq"][1]["a"]+`</p>
   </div>
 </div>
@@ -205,11 +218,11 @@ $('#faq-1').append(`
 <div class="col-lg-6 mb-2">
 <div class="tab">
   <input id="tab-3" type="checkbox" />
-  <label class="bg-faq4 judul-table p-3" for="tab-3">
+  <label class="`+data.warna[2]["a"]+` judul-table p-3" for="tab-3">
     <p>`+data["faq"][2]["t"]+`</p>
   </label>
 
-  <div class="bg-faq4 content p-3">
+  <div class="`+data.warna[2]["a"]+` content p-3">
     <p>`+data["faq"][2]["a"]+`</p>
   </div>
 </div>
@@ -219,11 +232,11 @@ $('#faq-1').append(`
 <div class="col-lg-6 mb-2">
 <div class="tab">
   <input id="tab-4" type="checkbox" />
-  <label class="bg-faq4 judul-table p-3" for="tab-4">
+  <label class="`+data.warna[2]["a"]+` judul-table p-3" for="tab-4">
     <p>`+data["faq"][3]["t"]+`</p>
   </label>
 
-  <div class="bg-faq4 content p-3">
+  <div class="`+data.warna[2]["a"]+` content p-3">
     <p>`+data["faq"][3]["a"]+`</p>
   </div>
 </div>
@@ -233,63 +246,66 @@ $('#faq-1').append(`
 <div class="col-lg-6 mb-2">
 <div class="tab">
   <input id="tab-5" type="checkbox" />
-  <label class="bg-faq4 judul-table p-3" for="tab-5">
+  <label class="`+data.warna[2]["a"]+` judul-table p-3" for="tab-5">
     <p>`+data["faq"][4]["t"]+`</p>
   </label>
 
-  <div class="bg-faq4 content p-3">
+  <div class="`+data.warna[2]["a"]+` content p-3">
     <p>`+data["faq"][4]["a"]+`</p>
   </div>
 </div>
 </div>
 <!-- end item -->
 `)
+// warna bola
+$('#warnaku-2').attr('class',data.warna[1]["a"]+' rounded-5 bg-opacity-25 d-inline py-1 px-4')
+$('#warnaku').attr('class',data.warna[1]["a"]+' rounded-5 bg-opacity-25 d-inline py-1 px-4')
 
   // eksekusi file
   const main = document.getElementById('main');
   // logika penyesuaian waktu
   if (currentHour >= 4 && currentHour < 5) {
-    fetch('/index.html').then(snap => snap.text()).then(result => {
+    fetch('/bangun.html').then(snap => snap.text()).then(result => {
       main.innerHTML = result
     })
   } else if (currentHour >= 5 && currentHour < 6) {
-    fetch('/index2.html').then(snap => snap.text()).then(result => {
+    fetch('/olahraga.html').then(snap => snap.text()).then(result => {
       main.innerHTML = result
     })
   } else if (currentHour >= 6 && currentHour < 7) {
-    fetch('/index3.html').then(snap => snap.text()).then(result => {
+    fetch('/persiapan.html').then(snap => snap.text()).then(result => {
       main.innerHTML = result
     })
   } else if (currentHour >= 7 && currentHour < 11) {
-    fetch('/index4.html').then(snap => snap.text()).then(result => {
+    fetch('/aktivitas.html').then(snap => snap.text()).then(result => {
       main.innerHTML = result
     })
   } else if (currentHour >= 11 && currentHour < 13) {
-    fetch('/index5.html').then(snap => snap.text()).then(result => {
+    fetch('/istirahat.html').then(snap => snap.text()).then(result => {
       main.innerHTML = result
     })
   } else if (currentHour >= 13 && currentHour < 16) {
-    fetch('/index6.html').then(snap => snap.text()).then(result => {
+    fetch('/minum.html').then(snap => snap.text()).then(result => {
       main.innerHTML = result
     })
   } else if (currentHour >= 16 && currentHour < 17) {
-    fetch('/index7.html').then(snap => snap.text()).then(result => {
+    fetch('/sore.html').then(snap => snap.text()).then(result => {
       main.innerHTML = result
     })
   } else if (currentHour >= 17 && currentHour < 20) {
-    fetch('/index8.html').then(snap => snap.text()).then(result => {
+    fetch('/keluarga.html').then(snap => snap.text()).then(result => {
       main.innerHTML = result
     })
-  } else if (currentHour >= 20 && currentHour < 23) {
-    fetch('/index9.html').then(snap => snap.text()).then(result => {
+  } else if (currentHour >= 20 && currentHour < 22) {
+    fetch('/tidur.html').then(snap => snap.text()).then(result => {
       main.innerHTML = result
     })
   } else if (currentHour >= 23 && currentHour < 4) {
-    fetch('/index10.html').then(snap => snap.text()).then(result => {
+    fetch('/begadang.html').then(snap => snap.text()).then(result => {
       main.innerHTML = result
     })
   } else {
-    fetch('/index11.html').then(snap => snap.text()).then(result => {
+    fetch('/minum.html').then(snap => snap.text()).then(result => {
       main.innerHTML = result
     })
   }
