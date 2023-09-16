@@ -16,8 +16,8 @@ setInterval(time,1000);
 
 
   // Mendapatkan jam dari waktu saat ini
-  // var currentHour = currentTime.getHours();
-  var currentHour = 20;
+  var currentHour = currentTime.getHours();
+  // var currentHour = 20;
   // time code : 4,5,6,7,11,13,16,17,20,23
 
   // logika penyesuaian waktu
