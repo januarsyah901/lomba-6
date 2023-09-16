@@ -17,7 +17,7 @@ setInterval(time,1000);
 
   // Mendapatkan jam dari waktu saat ini
   // var currentHour = currentTime.getHours();
-  var currentHour = 7;
+  var currentHour = 4;
 
   // logika penyesuaian waktu
   if (currentHour >= 4 && currentHour < 5) {
