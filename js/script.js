@@ -17,7 +17,8 @@ setInterval(time,1000);
 
   // Mendapatkan jam dari waktu saat ini
   // var currentHour = currentTime.getHours();
-  var currentHour = 4;
+  var currentHour = 20;
+  // time code : 4,5,6,7,11,13,16,17,20,23
 
   // logika penyesuaian waktu
   if (currentHour >= 4 && currentHour < 5) {
@@ -38,10 +39,8 @@ setInterval(time,1000);
         data = data.keluarga
   } else if (currentHour >= 20 && currentHour < 23) {
         data = data.tidur
-  } else if (currentHour >= 23 && currentHour < 4) {
-        data = data.begadang
   } else {
-    data = data.olahraga;
+    data = data.begadang;
   }
   // logika pertanyaan
   $('#pertanyaan').text(data.pertanyaan);
@@ -189,8 +188,8 @@ $('#faq-1').append(`
 <!-- item -->
 <div class="col-lg-6 mb-2">
 <div class="tab">
-  <input id="tab-1" type="checkbox" />
-  <label class="`+data.warna[2]["a"]+` judul-table p-3" for="tab-1">
+  <input id="tab-2" type="checkbox" />
+  <label class="`+data.warna[2]["a"]+` judul-table p-3" for="tab-2">
     <p>`+data["faq"][0]["t"]+`</p>
   </label>
 
@@ -296,16 +295,12 @@ $('#warnaku').attr('class',data.warna[1]["a"]+' rounded-5 bg-opacity-25 d-inline
     fetch('/keluarga.html').then(snap => snap.text()).then(result => {
       main.innerHTML = result
     })
-  } else if (currentHour >= 20 && currentHour < 22) {
+  } else if (currentHour >= 20 && currentHour < 23) {
     fetch('/tidur.html').then(snap => snap.text()).then(result => {
       main.innerHTML = result
     })
-  } else if (currentHour >= 23 && currentHour < 4) {
-    fetch('/begadang.html').then(snap => snap.text()).then(result => {
-      main.innerHTML = result
-    })
   } else {
-    fetch('/minum.html').then(snap => snap.text()).then(result => {
+    fetch('/begadang.html').then(snap => snap.text()).then(result => {
       main.innerHTML = result
     })
   }

@@ -130,11 +130,32 @@ body {
   border-radius: 20px;
   background: #d26500;
 }
+.welcome8 {
+  border-radius: 20px;
+  background: #7bd252;
+}
+.welcome88 {
+  border-radius: 20px;
+  background: #1d7321;
+}
+.welcome9 {
+  border-radius: 20px;
+  background: #0a044b;
+}
+
+.milkyway {
+  max-height: 300px;
+}
 
 .sepeda {
   object-fit: cover;
   border-radius: 25px;
   object-position: center;
+}
+.milkywayimg {
+  object-fit: cover;
+  border-radius: 25px;
+  object-position: bottom;
 }
 
 .welcome-container {
@@ -188,6 +209,13 @@ body {
   font-style: normal;
   font-weight: 600;
 }
+.welcome-isi9 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+}
 
 .welcome-isi p {
   color: #fff;
@@ -234,10 +262,26 @@ body {
   background: #e4bb50;
   overflow: hidden;
 }
+#home .jam3 {
+  border-radius: 20px;
+  background: #090808;
+  overflow: hidden;
+  background-image: url(../public/images/starr.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 
 .jam2 p {
   color: #000;
   font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.jam3 p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 36px;
   font-style: normal;
   font-weight: 700;
 }
@@ -250,10 +294,20 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
+  .milkyway {
+    max-height: 100%;
+  }
   .welcome-isi4 {
     color: #fff;
     font-family: Poppins;
     font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .welcome-isi9 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 70px;
     font-style: normal;
     font-weight: 600;
   }
@@ -277,6 +331,14 @@ body {
     color: #000;
 
     font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .jam3 p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 96px;
     font-style: normal;
     font-weight: 700;
   }
@@ -305,6 +367,10 @@ body {
 
 .home2 {
   /* height: 100%; */
+}
+
+.home9 {
+  min-height: 200px;
 }
 
 .home3 {
@@ -345,6 +411,14 @@ body {
   font-style: normal;
   font-weight: 500;
 }
+.todo-judul9 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  left: 21px;
+  top: 15px;
+}
 
 .todo-header {
   color: #fff;
@@ -365,8 +439,14 @@ body {
 }
 
 .bg-green {
-  background: #7BD252;
-  
+  background: #7bd252;
+
+  color: white;
+}
+.bg-green2 {
+  border-radius: 20px;
+  background: #1d7321;
+
   color: white;
 }
 
@@ -390,6 +470,11 @@ body {
   background: #ffd90f;
 
   color: black;
+}
+.bg-yellow3 {
+  background: #d26500;
+
+  color: white;
 }
 
 .todo-11 {
@@ -417,6 +502,28 @@ body {
 
 .isi-todo-6 .row {
   border-radius: 20px;
+}
+
+.todo-11 {
+  border-radius: 20px;
+  /* background: #ffd90f; */
+
+  /* background: #ffd90f; */
+}
+.isi-todo-11 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.isi-todo-11 p {
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  min-height: 200px;
+  max-height: 200px;
+  overflow-y: scroll;
 }
 
 .isi-todo-11 p::-webkit-scrollbar {
@@ -713,6 +820,18 @@ body {
   right: -11px;
   width: 100px;
 }
+.chat {
+  top: -49px;
+  right: -40px;
+  width: 155px;
+}
+
+.rumah {
+  bottom: -16px;
+  left: -13px;
+  width: 127px;
+  z-index: 20;
+}
 .sipjempol {
   top: -22px;
   right: -70px;
@@ -821,6 +940,9 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
+  .home9 {
+    min-height: 400px;
+  }
   .isi-todo-6 {
     color: #c23939;
     font-family: Poppins;
@@ -837,6 +959,18 @@ body {
     margin: 0;
   }
 
+  .chat {
+    top: -97px;
+    right: -70px;
+    width: 198px;
+  }
+
+  .rumah {
+    bottom: -42px;
+    left: -36px;
+    width: 183px;
+    z-index: 20;
+  }
   .sipjempol {
     top: -22px;
     right: -70px;

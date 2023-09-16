@@ -229,10 +229,10 @@
     "y": 7,
     "warna": [
       {
-        "a" : "blog-judul3 rounded-5 bg-opacity-25 d-inline py-1 px-4"
+        "a" : "blog-judul3 rounded-5 bg-opacity-25 d-inline py-1 px-4  text-dark"
       },
       {
-        "a" : "faq-judul3"
+        "a" : "faq-judul3  text-dark"
       },
       {
         "a" : "bg-faq3 text-dark"
@@ -632,6 +632,17 @@
     "pertanyaan": "Berapa jam family time mu?",
     "x": 3,
     "y": 4,
+    "warna": [
+      {
+        "a" : "blog-judul8 rounded-5 bg-opacity-25 d-inline py-1 px-4"
+      },
+      {
+        "a" : "faq-judul8"
+      },
+      {
+        "a" : "bg-faq8"
+      }
+    ],
     "kurang": "Harus di manfaatin sih",
     "pas": "Pasti seru yaa",
     "lebih": "Bersyukur banget ya waktunya banyak"
@@ -699,9 +710,20 @@
         "a": "Kurang tidur dapat memiliki dampak serius terhadap kesehatan Anda. Selain mengakibatkan kelelahan dan kurangnya konsentrasi, kurang tidur kronis dapat meningkatkan risiko obesitas, diabetes, penyakit jantung, dan masalah mental seperti depresi dan kecemasan. Sistem kekebalan tubuh juga dapat terpengaruh, membuat Anda lebih rentan terhadap infeksi. Oleh karena itu, penting untuk memberi prioritas pada tidur yang cukup dan berkualitas."
       }
     ],
-    "pertanyaan": "Sudah minum berapa gelas air putih hari ini?<br>2 liter = 8 gelas",
+    "pertanyaan": "Sudah minum berapa gelas air putih hari ini?(2 liter = 8 gelas)",
     "x": 8,
     "y": 11,
+    "warna": [
+      {
+        "a" : "blog-judul9 rounded-5 bg-opacity-25 d-inline py-1 px-4"
+      },
+      {
+        "a" : "faq-judul9"
+      },
+      {
+        "a" : "bg-faq9"
+      }
+    ],
     "kurang": "Kok kurang sih minumnya, kan minimal 2 liter",
     "pas": "Pas, moga makin sehat tubuhnya",
     "lebih": "Kamu haus ya, hehe, ga papa air memang penting bagi tubuh"
@@ -772,6 +794,17 @@
     "pertanyaan": "Berapa jam lagi baru tidur emang?",
     "x": 1,
     "y": 2,
+    "warna": [
+      {
+        "a" : "blog-judul4 text-dark rounded-5 bg-opacity-25 d-inline py-1 px-4"
+      },
+      {
+        "a" : "faq-judul3 text-dark"
+      },
+      {
+        "a" : "bg-faq3 text-dark"
+      }
+    ],
     "kurang": "Beneran lo!",
     "pas": "Yaudah cepetan yaa!",
     "lebih": "Loh, kok masih lama sih?!"
