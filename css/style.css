@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -1775,7 +1775,7 @@ body {
 
 .todo-11 label::after {
   display: block;
-  content: url('../public/images/cursor\ down.svg');
+  content: url("../public/images/cursor\ down.svg");
   width: 29px;
   height: 27px;
   margin: auto;
@@ -1825,7 +1825,7 @@ body {
 }
 .tab label::after {
   display: block;
-  content: url('../public/images/plus.svg');
+  content: url("../public/images/plus.svg");
   width: 39px;
   height: 39px;
 
@@ -1924,7 +1924,7 @@ body {
   }
   .tab label::after {
     display: block;
-    content: url('../public/images/plus.svg');
+    content: url("../public/images/plus.svg");
     width: 39px;
     height: 39px;
 

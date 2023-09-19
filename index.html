@@ -1,108 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Healthine</title>
-        <link rel="icon" href="public/images/logo.svg" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="style.scss" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Montserrat:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-          rel="stylesheet"
-        />
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Healthine</title>
+    <link rel="icon" href="public/images/logo.svg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Montserrat:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- NAV -->
-    <nav class="navbar navbar-expand-md fixed-top" style="padding: 0px; height: 67px">
-        <div class="container inner-navbar d-flex justify-content-between">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="black" class="bi bi-list" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-            </svg>
-            <!-- <span fill="white" class="navbar-toggler-icon"></span> -->
-          </button>
-          <a href="#home" class="d-flex text-decoration-none">
-            <svg xmlns="http://www.w3.org/2000/svg" width="65" height="43" viewBox="0 0 65 43" fill="none">
-              <rect y="15" width="65" height="13" rx="6.5" fill="#7353D9" />
-              <rect x="36" y="43" width="26" height="13" rx="6.5" transform="rotate(-90 36 43)" fill="#7353D9" />
-              <rect x="14" y="26" width="26" height="14" rx="7" transform="rotate(-90 14 26)" fill="#7353D9" />
-              <path d="M36 11V6.5C36 2.91015 38.9101 0 42.5 0C46.0899 0 49 2.91015 49 6.5V11H36Z" fill="#688BFE" />
-              <path d="M28 32V36C28 39.866 24.866 43 21 43C17.134 43 14 39.866 14 36V32L28 32Z" fill="#688BFE" />
-            </svg>
-  
-            <h1 class="d-none d-md-block nav-logo">Health<span>thine.</span></h1>
-          </a>
-  
-          <div id="jamku" class="clock d-block d-md-none"></div>
-          
-          <div class="collapse navbar-collapse menu rounded-2 justify-content-center" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item nav-hover-1">
-                <a style="padding: 0px" class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item nav-hover-7">
-                <a style="padding: 0px" class="nav-link" href="#blog">Blog</a>
-              </li>
-              <li class="nav-item nav-hover-2">
-                <a style="padding: 0px" class="nav-link" href="#faq">Question</a>
-              </li>
-            </ul>
-          </div>
-          <div id="jamku2" class="clock d-md-block d-none"></div>
+    <nav
+      class="navbar navbar-expand-md fixed-top"
+      style="padding: 0px; height: 67px"
+    >
+      <div class="container inner-navbar d-flex justify-content-between">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="34"
+            height="34"
+            fill="black"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+          <!-- <span fill="white" class="navbar-toggler-icon"></span> -->
+        </button>
+        <a href="#home" class="d-flex text-decoration-none">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="65"
+            height="43"
+            viewBox="0 0 65 43"
+            fill="none"
+          >
+            <rect y="15" width="65" height="13" rx="6.5" fill="#7353D9" />
+            <rect
+              x="36"
+              y="43"
+              width="26"
+              height="13"
+              rx="6.5"
+              transform="rotate(-90 36 43)"
+              fill="#7353D9"
+            />
+            <rect
+              x="14"
+              y="26"
+              width="26"
+              height="14"
+              rx="7"
+              transform="rotate(-90 14 26)"
+              fill="#7353D9"
+            />
+            <path
+              d="M36 11V6.5C36 2.91015 38.9101 0 42.5 0C46.0899 0 49 2.91015 49 6.5V11H36Z"
+              fill="#688BFE"
+            />
+            <path
+              d="M28 32V36C28 39.866 24.866 43 21 43C17.134 43 14 39.866 14 36V32L28 32Z"
+              fill="#688BFE"
+            />
+          </svg>
+
+          <h1 class="d-none d-md-block nav-logo">Health<span>thine.</span></h1>
+        </a>
+
+        <div id="jamku" class="clock d-block d-md-none"></div>
+
+        <div
+          class="collapse navbar-collapse menu rounded-2 justify-content-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item nav-hover-1">
+              <a style="padding: 0px" class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item nav-hover-7">
+              <a style="padding: 0px" class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item nav-hover-2">
+              <a style="padding: 0px" class="nav-link" href="#faq">Question</a>
+            </li>
+          </ul>
         </div>
+        <div id="jamku2" class="clock d-md-block d-none"></div>
+      </div>
     </nav>
     <!-- END NAV -->
     <section id="main"></section>
     <!-- QUESTION -->
-    <div class=" mt-5 w-75 mx-auto">
-      <div class="todo-judul rounded-5 bg-opacity-25 bg-white d-inline py-1 px-4">pertanyaan</div>
+    <div class="mt-5 w-75 mx-auto">
+      <div
+        class="todo-judul rounded-5 bg-opacity-25 bg-white d-inline py-1 px-4"
+      >
+        pertanyaan
+      </div>
       <h1 id="pertanyaan" class="mt-3"></h1>
       <p>jawab pertanyaan diatas dengan mengisi dibawah ini</p>
       <div class="input-group mb-3 mt-4">
-        <input type="text" class="form-control" placeholder="Jawab dengan angka" aria-label="" id="userInput"/>
-        <button class="tombol-submit1 p-2 p-lg-3" type="button" id="tombol-input">submit</button>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Jawab dengan angka"
+          aria-label=""
+          id="userInput"
+        />
+        <button
+          class="tombol-submit1 p-2 p-lg-3"
+          type="button"
+          id="tombol-input"
+        >
+          submit
+        </button>
       </div>
       <section id="alertku" class="p-lg-3"></section>
     </div>
     <!-- END QUESTION -->
     <!-- aritkel -->
     <section id="blog">
-        <div class="container my-5">
-            <div id="warnaku" class="">blog</div>
-            <br />
-            <h1 class="blog-title lh-1 w-100 mt-3">
-              Ayo Budayakan <br />
-              membaca
-            </h1>
-            <div id="artikel" class="row mt-5">
-            </div>
-            <div id="artikel-2" class="row mt-5">
-            </div>
-            <div id="artikel-3" class="row mt-5">
-            </div>
-        </div>
+      <div class="container my-5">
+        <div id="warnaku" class="">blog</div>
+        <br />
+        <h1 class="blog-title lh-1 w-100 mt-3">
+          Ayo Budayakan <br />
+          membaca
+        </h1>
+        <div id="artikel" class="row mt-5"></div>
+        <div id="artikel-2" class="row mt-5"></div>
+        <div id="artikel-3" class="row mt-5"></div>
+      </div>
     </section>
     <!-- END ARTIKEL -->
     <!-- FAQ  -->
     <section id="faq">
-        <div class="container my-5">
-          <div class="text-center">
-            <div id="warnaku-2" class="">FAQ</div>
-            <h1 class="mt-3">
-              Pertanyaan yang <br />
-              sering ditanyakan
-            </h1>
-          </div>
-          <div id="faq-1" class="row mt-4"></div>
+      <div class="container my-5">
+        <div class="text-center">
+          <div id="warnaku-2" class="">FAQ</div>
+          <h1 class="mt-3">
+            Pertanyaan yang <br />
+            sering ditanyakan
+          </h1>
         </div>
+        <div id="faq-1" class="row mt-4"></div>
+      </div>
     </section>
     <!-- END FAQ  -->
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-<script src="js/script.js"></script>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/script.js"></script>
 </html>
